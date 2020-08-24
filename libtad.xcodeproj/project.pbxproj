@@ -1,0 +1,1384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67094709246296D5004C1473 /* BusinessDateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094708246296D4004C1473 /* BusinessDateRequest.swift */; };
+		670947162463C4E5004C1473 /* WeekdaysType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709470A2463C4E5004C1473 /* WeekdaysType.swift */; };
+		670947172463C4E5004C1473 /* TextType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709470B2463C4E5004C1473 /* TextType.swift */; };
+		6709471C2463C4E5004C1473 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947102463C4E5004C1473 /* Period.swift */; };
+		6709471D2463C4E5004C1473 /* BusinessDateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947112463C4E5004C1473 /* BusinessDateResponse.swift */; };
+		670947232463D1FB004C1473 /* BusinessDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947222463D1FB004C1473 /* BusinessDateService.swift */; };
+		670947252463D9CF004C1473 /* BusinessDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947242463D9CF004C1473 /* BusinessDateTests.swift */; };
+		6709472824692705004C1473 /* BusinessDurationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709472724692705004C1473 /* BusinessDurationRequest.swift */; };
+		6709473A24692DBC004C1473 /* BusinessDurationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709473124692DBC004C1473 /* BusinessDurationResponse.swift */; };
+		6709473D2469383E004C1473 /* BusinessDurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709473C2469383E004C1473 /* BusinessDurationService.swift */; };
+		6709473F246939FC004C1473 /* BusinessDurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709473E246939FC004C1473 /* BusinessDurationTests.swift */; };
+		6709474324695402004C1473 /* ConvertTimeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709474224695402004C1473 /* ConvertTimeRequest.swift */; };
+		6709474D246BB45D004C1473 /* TimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094744246BB45C004C1473 /* TimeType.swift */; };
+		6709474E246BB45D004C1473 /* Utc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094745246BB45C004C1473 /* Utc.swift */; };
+		6709474F246BB45D004C1473 /* ConvertTimeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094746246BB45C004C1473 /* ConvertTimeResponse.swift */; };
+		67094750246BB45D004C1473 /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094747246BB45C004C1473 /* LocationType.swift */; };
+		67094755246BB45D004C1473 /* TimeZoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709474C246BB45D004C1473 /* TimeZoneType.swift */; };
+		67094757246BBE06004C1473 /* ConvertTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094756246BBE05004C1473 /* ConvertTimeService.swift */; };
+		67094759246BBEBF004C1473 /* ConvertTimeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094758246BBEBF004C1473 /* ConvertTimeServiceTests.swift */; };
+		6709475D246BBF94004C1473 /* DSTListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709475C246BBF94004C1473 /* DSTListRequest.swift */; };
+		6709476C246BC4F3004C1473 /* VerboseTimeChangeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709475E246BC4F2004C1473 /* VerboseTimeChangeType.swift */; };
+		6709476F246BC4F3004C1473 /* DSTListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094761246BC4F3004C1473 /* DSTListResponse.swift */; };
+		67094771246BC4F3004C1473 /* Timechange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094763246BC4F3004C1473 /* Timechange.swift */; };
+		67094772246BC4F3004C1473 /* DSTListRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094764246BC4F3004C1473 /* DSTListRegion.swift */; };
+		67094773246BC4F3004C1473 /* DSTListLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094765246BC4F3004C1473 /* DSTListLocation.swift */; };
+		67094778246BC4F3004C1473 /* DstEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709476A246BC4F3004C1473 /* DstEntryType.swift */; };
+		6709830824DA93E600120C9D /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709830724DA93E600120C9D /* BaseService.swift */; };
+		6709830A24DAB8E500120C9D /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709830924DAB8E500120C9D /* ServiceProtocol.swift */; };
+		6710592824C59C8D00791274 /* BussinesDaysFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */; };
+		6710592A24C5A11900791274 /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592924C5A11900791274 /* MoonPhase.swift */; };
+		6710592E24C6C78100791274 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592D24C6C78100791274 /* BaseResponse.swift */; };
+		67593DFD24498E7600FE8D71 /* TadApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67593DFC24498E7600FE8D71 /* TadApiTests.swift */; };
+		67593DFF24498E7600FE8D71 /* libtad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F008B244833ED00035B79 /* libtad.framework */; };
+		67593E0524498F6900FE8D71 /* AstronomyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67593DE524498DAC00FE8D71 /* AstronomyServiceTests.swift */; };
+		676DF49D2473B7CE00FDAFBF /* DSTListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF49C2473B7CE00FDAFBF /* DSTListService.swift */; };
+		676DF4A12473BA0100FDAFBF /* HolidaysRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4A02473BA0100FDAFBF /* HolidaysRequest.swift */; };
+		676DF4B72474F99D00FDAFBF /* HolidaysResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4AF2474F99C00FDAFBF /* HolidaysResponse.swift */; };
+		676DF4BB2474F99D00FDAFBF /* HolidayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4B32474F99C00FDAFBF /* HolidayType.swift */; };
+		676DF4C02474FE8100FDAFBF /* HolidaysService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4BF2474FE8100FDAFBF /* HolidaysService.swift */; };
+		676DF4C42474FFD600FDAFBF /* PlacesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4C32474FFD600FDAFBF /* PlacesRequest.swift */; };
+		676DF4CA2475004800FDAFBF /* PlaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4C52475004800FDAFBF /* PlaceType.swift */; };
+		676DF4CB2475004800FDAFBF /* PlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4C62475004800FDAFBF /* PlacesResponse.swift */; };
+		676DF4D02475016100FDAFBF /* PlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4CF2475016100FDAFBF /* PlacesService.swift */; };
+		6776FD4E247BEE090031A822 /* AstronomyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD3E247BEE080031A822 /* AstronomyType.swift */; };
+		6776FD50247BEE090031A822 /* AstronomyObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD40247BEE080031A822 /* AstronomyObjectType.swift */; };
+		6776FD51247BEE090031A822 /* TimeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD41247BEE090031A822 /* TimeResponse.swift */; };
+		6776FD52247BEE090031A822 /* AstronomyEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD42247BEE090031A822 /* AstronomyEventType.swift */; };
+		6776FD54247BFEA90031A822 /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD53247BFEA90031A822 /* TimeService.swift */; };
+		677E1BD424BF069500D917F2 /* BusinessDaysOperatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E1BD324BF069500D917F2 /* BusinessDaysOperatorType.swift */; };
+		6788BD9E2488DE0F000C4A7B /* DSTEntrySpecialType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BD9D2488DE0F000C4A7B /* DSTEntrySpecialType.swift */; };
+		6788BDA02488F7BB000C4A7B /* HolidayStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BD9F2488F7BB000C4A7B /* HolidayStateType.swift */; };
+		6788BDA224890DED000C4A7B /* AstronomySpecialType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDA124890DED000C4A7B /* AstronomySpecialType.swift */; };
+		6788BDA6248A7316000C4A7B /* BusinessHolidayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDA5248A7316000C4A7B /* BusinessHolidayType.swift */; };
+		6788BDA8248DF9F2000C4A7B /* DSTListServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDA7248DF9F2000C4A7B /* DSTListServiceTests.swift */; };
+		6788BDAA248E099E000C4A7B /* HolidaysServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDA9248E099E000C4A7B /* HolidaysServiceTests.swift */; };
+		6788BDAC248E0B78000C4A7B /* PlacesServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDAB248E0B78000C4A7B /* PlacesServiceTests.swift */; };
+		6788BDAE248E0BEF000C4A7B /* TimeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDAD248E0BEF000C4A7B /* TimeServiceTests.swift */; };
+		6788BDB8248E259F000C4A7B /* TadApi_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6788BDB6248E259F000C4A7B /* TadApi_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6788BDBC248E26B4000C4A7B /* EventClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00B5244834D300035B79 /* EventClass.swift */; };
+		6788BDBD248E26B4000C4A7B /* AstroObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00B6244834D300035B79 /* AstroObjectType.swift */; };
+		6788BDBE248E26B4000C4A7B /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00B7244834D300035B79 /* EventType.swift */; };
+		6788BDBF248E26B4000C4A7B /* AstronomyDataAstronomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9526245AB2E3000C2DBA /* AstronomyDataAstronomy.swift */; };
+		6788BDC1248E26B4000C4A7B /* AstronomyObjectDetailsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9527245AB2E3000C2DBA /* AstronomyObjectDetailsType.swift */; };
+		6788BDC2248E26B5000C4A7B /* AstronomyDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952B245AB2E3000C2DBA /* AstronomyDataResponse.swift */; };
+		6788BDC3248E26B5000C4A7B /* AstronomyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00C0244834D300035B79 /* AstronomyService.swift */; };
+		6788BDC4248E26B5000C4A7B /* AstronomyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D950A2456F092000C2DBA /* AstronomyRequest.swift */; };
+		6788BDC5248E26B5000C4A7B /* AstroDataAstronomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9516245AB256000C2DBA /* AstroDataAstronomy.swift */; };
+		6788BDC6248E26B5000C4A7B /* LocationAstroType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D951C245AB257000C2DBA /* LocationAstroType.swift */; };
+		6788BDC8248E26B5000C4A7B /* AstroDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D951D245AB257000C2DBA /* AstroDataResponse.swift */; };
+		6788BDC9248E26B5000C4A7B /* AstrodataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D950F24581E35000C2DBA /* AstrodataRequest.swift */; };
+		6788BDCA248E26B5000C4A7B /* AstrodataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D951124581F4C000C2DBA /* AstrodataService.swift */; };
+		6788BDCB248E26B5000C4A7B /* BusinessDateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947112463C4E5004C1473 /* BusinessDateResponse.swift */; };
+		6788BDCC248E26B5000C4A7B /* BusinessDateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094708246296D4004C1473 /* BusinessDateRequest.swift */; };
+		6788BDCD248E26B5000C4A7B /* BusinessDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947222463D1FB004C1473 /* BusinessDateService.swift */; };
+		6788BDCE248E26B5000C4A7B /* BusinessDurationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709473124692DBC004C1473 /* BusinessDurationResponse.swift */; };
+		6788BDCF248E26B5000C4A7B /* BusinessDurationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709472724692705004C1473 /* BusinessDurationRequest.swift */; };
+		6788BDD0248E26B5000C4A7B /* BusinessDurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709473C2469383E004C1473 /* BusinessDurationService.swift */; };
+		6788BDD1248E26B5000C4A7B /* ConvertTimeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094746246BB45C004C1473 /* ConvertTimeResponse.swift */; };
+		6788BDD2248E26B5000C4A7B /* ConvertTimeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709474224695402004C1473 /* ConvertTimeRequest.swift */; };
+		6788BDD3248E26B5000C4A7B /* ConvertTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094756246BBE05004C1473 /* ConvertTimeService.swift */; };
+		6788BDD4248E26B5000C4A7B /* DstEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709476A246BC4F3004C1473 /* DstEntryType.swift */; };
+		6788BDD5248E26B5000C4A7B /* DSTListLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094765246BC4F3004C1473 /* DSTListLocation.swift */; };
+		6788BDD6248E26B5000C4A7B /* DSTListRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094764246BC4F3004C1473 /* DSTListRegion.swift */; };
+		6788BDD7248E26B5000C4A7B /* DSTListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094761246BC4F3004C1473 /* DSTListResponse.swift */; };
+		6788BDD8248E26B5000C4A7B /* DSTEntrySpecialType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BD9D2488DE0F000C4A7B /* DSTEntrySpecialType.swift */; };
+		6788BDD9248E26B5000C4A7B /* DSTListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709475C246BBF94004C1473 /* DSTListRequest.swift */; };
+		6788BDDA248E26B5000C4A7B /* DSTListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF49C2473B7CE00FDAFBF /* DSTListService.swift */; };
+		6788BDE1248E26B6000C4A7B /* HolidayStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BD9F2488F7BB000C4A7B /* HolidayStateType.swift */; };
+		6788BDE2248E26B6000C4A7B /* HolidaysResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4AF2474F99C00FDAFBF /* HolidaysResponse.swift */; };
+		6788BDE3248E26B6000C4A7B /* HolidaysRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4A02473BA0100FDAFBF /* HolidaysRequest.swift */; };
+		6788BDE4248E26B6000C4A7B /* HolidaysService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4BF2474FE8100FDAFBF /* HolidaysService.swift */; };
+		6788BDE5248E26B6000C4A7B /* PlaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4C52475004800FDAFBF /* PlaceType.swift */; };
+		6788BDE6248E26B6000C4A7B /* PlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4C62475004800FDAFBF /* PlacesResponse.swift */; };
+		6788BDE7248E26B6000C4A7B /* PlacesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4C32474FFD600FDAFBF /* PlacesRequest.swift */; };
+		6788BDE8248E26B6000C4A7B /* PlacesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4CF2475016100FDAFBF /* PlacesService.swift */; };
+		6788BDE9248E26B6000C4A7B /* AstronomyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD3E247BEE080031A822 /* AstronomyType.swift */; };
+		6788BDEA248E26B6000C4A7B /* AstronomyEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD42247BEE090031A822 /* AstronomyEventType.swift */; };
+		6788BDEB248E26B6000C4A7B /* AstronomyObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD40247BEE080031A822 /* AstronomyObjectType.swift */; };
+		6788BDEC248E26B6000C4A7B /* AstronomySpecialType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDA124890DED000C4A7B /* AstronomySpecialType.swift */; };
+		6788BDED248E26B6000C4A7B /* TimeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD41247BEE090031A822 /* TimeResponse.swift */; };
+		6788BDEE248E26B6000C4A7B /* TimeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C32AC62477CF8A009BE8F8 /* TimeRequest.swift */; };
+		6788BDEF248E26B6000C4A7B /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776FD53247BFEA90031A822 /* TimeService.swift */; };
+		6788BDF0248E26B6000C4A7B /* HolidayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DF4B32474F99C00FDAFBF /* HolidayType.swift */; };
+		6788BDF1248E26B6000C4A7B /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670947102463C4E5004C1473 /* Period.swift */; };
+		6788BDF2248E26B6000C4A7B /* BusinessHolidayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDA5248A7316000C4A7B /* BusinessHolidayType.swift */; };
+		6788BDF3248E26B6000C4A7B /* AstronomyCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952F245AB2E4000C2DBA /* AstronomyCurrent.swift */; };
+		6788BDF4248E26B6000C4A7B /* AstronomyDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952D245AB2E3000C2DBA /* AstronomyDay.swift */; };
+		6788BDF5248E26B6000C4A7B /* AstronomyDayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9529245AB2E3000C2DBA /* AstronomyDayEvent.swift */; };
+		6788BDF6248E26B6000C4A7B /* TextType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709470B2463C4E5004C1473 /* TextType.swift */; };
+		6788BDF7248E26B6000C4A7B /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9528245AB2E3000C2DBA /* Geo.swift */; };
+		6788BDF8248E26B6000C4A7B /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094747246BB45C004C1473 /* LocationType.swift */; };
+		6788BDF9248E26B6000C4A7B /* Billing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952A245AB2E3000C2DBA /* Billing.swift */; };
+		6788BDFA248E26B6000C4A7B /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952C245AB2E3000C2DBA /* Country.swift */; };
+		6788BDFB248E26B6000C4A7B /* TimeZoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709474C246BB45D004C1473 /* TimeZoneType.swift */; };
+		6788BDFD248E26B7000C4A7B /* TimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094744246BB45C004C1473 /* TimeType.swift */; };
+		6788BDFE248E26B7000C4A7B /* VerboseTimeChangeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709475E246BC4F2004C1473 /* VerboseTimeChangeType.swift */; };
+		6788BE00248E26B7000C4A7B /* Utc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094745246BB45C004C1473 /* Utc.swift */; };
+		6788BE01248E26B7000C4A7B /* Timechange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094763246BC4F3004C1473 /* Timechange.swift */; };
+		6788BE02248E26B7000C4A7B /* WeekdaysType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709470A2463C4E5004C1473 /* WeekdaysType.swift */; };
+		6788BE03248E26B7000C4A7B /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00C1244834D300035B79 /* ServiceErrors.swift */; };
+		6788BE04248E26B7000C4A7B /* ResponseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D95082456E663000C2DBA /* ResponseHelper.swift */; };
+		6788BE05248E26B7000C4A7B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00C3244834D300035B79 /* Crypto.swift */; };
+		6788BE06248E26B7000C4A7B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0098244834D300035B79 /* NetworkManager.swift */; };
+		6788BE07248E26B7000C4A7B /* TadEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009A244834D300035B79 /* TadEndPoint.swift */; };
+		6788BE08248E26B7000C4A7B /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009C244834D300035B79 /* HTTPTask.swift */; };
+		6788BE09248E26B7000C4A7B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009D244834D300035B79 /* HTTPMethod.swift */; };
+		6788BE0A248E26B7000C4A7B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009E244834D300035B79 /* Router.swift */; };
+		6788BE0B248E26B7000C4A7B /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009F244834D300035B79 /* NetworkLogger.swift */; };
+		6788BE0C248E26B7000C4A7B /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A0244834D300035B79 /* EndPointType.swift */; };
+		6788BE0D248E26B7000C4A7B /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A2244834D300035B79 /* ParameterEncoding.swift */; };
+		6788BE0E248E26B7000C4A7B /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A3244834D300035B79 /* URLParameterEncoding.swift */; };
+		6788BE0F248E26B7000C4A7B /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A4244834D300035B79 /* JSONParameterEncoder.swift */; };
+		6788BE10248E26B7000C4A7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A6244834D300035B79 /* Constants.swift */; };
+		6788BE13248E26B7000C4A7B /* TadApi.h in Sources */ = {isa = PBXBuildFile; fileRef = 679F008E244833ED00035B79 /* TadApi.h */; };
+		6788BE15248E26B7000C4A7B /* TadApi_macOS.h in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDB6248E259F000C4A7B /* TadApi_macOS.h */; };
+		6788BE17248E2700000C4A7B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F00EA2448352A00035B79 /* CFNetwork.framework */; };
+		6788BE18248E2700000C4A7B /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F00E82448352400035B79 /* Network.framework */; };
+		678D95092456E663000C2DBA /* ResponseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D95082456E663000C2DBA /* ResponseHelper.swift */; };
+		678D950B2456F092000C2DBA /* AstronomyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D950A2456F092000C2DBA /* AstronomyRequest.swift */; };
+		678D951024581E35000C2DBA /* AstrodataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D950F24581E35000C2DBA /* AstrodataRequest.swift */; };
+		678D951224581F4C000C2DBA /* AstrodataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D951124581F4C000C2DBA /* AstrodataService.swift */; };
+		678D951E245AB257000C2DBA /* AstroDataAstronomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9516245AB256000C2DBA /* AstroDataAstronomy.swift */; };
+		678D9524245AB257000C2DBA /* LocationAstroType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D951C245AB257000C2DBA /* LocationAstroType.swift */; };
+		678D9525245AB257000C2DBA /* AstroDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D951D245AB257000C2DBA /* AstroDataResponse.swift */; };
+		678D9530245AB2E4000C2DBA /* AstronomyDataAstronomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9526245AB2E3000C2DBA /* AstronomyDataAstronomy.swift */; };
+		678D9531245AB2E4000C2DBA /* AstronomyObjectDetailsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9527245AB2E3000C2DBA /* AstronomyObjectDetailsType.swift */; };
+		678D9532245AB2E4000C2DBA /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9528245AB2E3000C2DBA /* Geo.swift */; };
+		678D9533245AB2E4000C2DBA /* AstronomyDayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D9529245AB2E3000C2DBA /* AstronomyDayEvent.swift */; };
+		678D9534245AB2E4000C2DBA /* Billing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952A245AB2E3000C2DBA /* Billing.swift */; };
+		678D9535245AB2E4000C2DBA /* AstronomyDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952B245AB2E3000C2DBA /* AstronomyDataResponse.swift */; };
+		678D9536245AB2E4000C2DBA /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952C245AB2E3000C2DBA /* Country.swift */; };
+		678D9537245AB2E4000C2DBA /* AstronomyDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952D245AB2E3000C2DBA /* AstronomyDay.swift */; };
+		678D9539245AB2E4000C2DBA /* AstronomyCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D952F245AB2E4000C2DBA /* AstronomyCurrent.swift */; };
+		678D953D245AC803000C2DBA /* AstroDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D953C245AC803000C2DBA /* AstroDataServiceTests.swift */; };
+		679F0090244833ED00035B79 /* TadApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 679F008E244833ED00035B79 /* TadApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		679F00C5244834D300035B79 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F0098244834D300035B79 /* NetworkManager.swift */; };
+		679F00C6244834D300035B79 /* TadEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009A244834D300035B79 /* TadEndPoint.swift */; };
+		679F00C7244834D300035B79 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009C244834D300035B79 /* HTTPTask.swift */; };
+		679F00C8244834D300035B79 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009D244834D300035B79 /* HTTPMethod.swift */; };
+		679F00C9244834D300035B79 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009E244834D300035B79 /* Router.swift */; };
+		679F00CA244834D300035B79 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F009F244834D300035B79 /* NetworkLogger.swift */; };
+		679F00CB244834D300035B79 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A0244834D300035B79 /* EndPointType.swift */; };
+		679F00CC244834D300035B79 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A2244834D300035B79 /* ParameterEncoding.swift */; };
+		679F00CD244834D300035B79 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A3244834D300035B79 /* URLParameterEncoding.swift */; };
+		679F00CE244834D300035B79 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A4244834D300035B79 /* JSONParameterEncoder.swift */; };
+		679F00CF244834D300035B79 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00A6244834D300035B79 /* Constants.swift */; };
+		679F00DA244834D300035B79 /* EventClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00B5244834D300035B79 /* EventClass.swift */; };
+		679F00DB244834D300035B79 /* AstroObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00B6244834D300035B79 /* AstroObjectType.swift */; };
+		679F00DC244834D300035B79 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00B7244834D300035B79 /* EventType.swift */; };
+		679F00E4244834D300035B79 /* AstronomyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00C0244834D300035B79 /* AstronomyService.swift */; };
+		679F00E5244834D300035B79 /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00C1244834D300035B79 /* ServiceErrors.swift */; };
+		679F00E6244834D300035B79 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F00C3244834D300035B79 /* Crypto.swift */; };
+		679F00E92448352400035B79 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F00E82448352400035B79 /* Network.framework */; };
+		679F00EB2448352A00035B79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F00EA2448352A00035B79 /* CFNetwork.framework */; };
+		67A2C59B24D17C0F005FEB6B /* HolidayTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2C59A24D17C0F005FEB6B /* HolidayTypes.swift */; };
+		67A2C59D24D40CF5005FEB6B /* AstronomyEventCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2C59C24D40CF5005FEB6B /* AstronomyEventCodes.swift */; };
+		67A2C59F24D7D39D005FEB6B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A2C59E24D7D39D005FEB6B /* Extensions.swift */; };
+		67C32AC72477CF8A009BE8F8 /* TimeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C32AC62477CF8A009BE8F8 /* TimeRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67593E0024498E7600FE8D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 679F0082244833ED00035B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 679F008A244833ED00035B79;
+			remoteInfo = TadApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67094708246296D4004C1473 /* BusinessDateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDateRequest.swift; sourceTree = "<group>"; };
+		6709470A2463C4E5004C1473 /* WeekdaysType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysType.swift; sourceTree = "<group>"; };
+		6709470B2463C4E5004C1473 /* TextType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextType.swift; sourceTree = "<group>"; };
+		670947102463C4E5004C1473 /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		670947112463C4E5004C1473 /* BusinessDateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessDateResponse.swift; sourceTree = "<group>"; };
+		670947222463D1FB004C1473 /* BusinessDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDateService.swift; sourceTree = "<group>"; };
+		670947242463D9CF004C1473 /* BusinessDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDateTests.swift; sourceTree = "<group>"; };
+		6709472724692705004C1473 /* BusinessDurationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDurationRequest.swift; sourceTree = "<group>"; };
+		6709473124692DBC004C1473 /* BusinessDurationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessDurationResponse.swift; sourceTree = "<group>"; };
+		6709473C2469383E004C1473 /* BusinessDurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDurationService.swift; sourceTree = "<group>"; };
+		6709473E246939FC004C1473 /* BusinessDurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDurationTests.swift; sourceTree = "<group>"; };
+		6709474224695402004C1473 /* ConvertTimeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTimeRequest.swift; sourceTree = "<group>"; };
+		67094744246BB45C004C1473 /* TimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeType.swift; sourceTree = "<group>"; };
+		67094745246BB45C004C1473 /* Utc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utc.swift; sourceTree = "<group>"; };
+		67094746246BB45C004C1473 /* ConvertTimeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertTimeResponse.swift; sourceTree = "<group>"; };
+		67094747246BB45C004C1473 /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationType.swift; sourceTree = "<group>"; };
+		6709474C246BB45D004C1473 /* TimeZoneType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZoneType.swift; sourceTree = "<group>"; };
+		67094756246BBE05004C1473 /* ConvertTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTimeService.swift; sourceTree = "<group>"; };
+		67094758246BBEBF004C1473 /* ConvertTimeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTimeServiceTests.swift; sourceTree = "<group>"; };
+		6709475C246BBF94004C1473 /* DSTListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTListRequest.swift; sourceTree = "<group>"; };
+		6709475E246BC4F2004C1473 /* VerboseTimeChangeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerboseTimeChangeType.swift; sourceTree = "<group>"; };
+		67094761246BC4F3004C1473 /* DSTListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSTListResponse.swift; sourceTree = "<group>"; };
+		67094763246BC4F3004C1473 /* Timechange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timechange.swift; sourceTree = "<group>"; };
+		67094764246BC4F3004C1473 /* DSTListRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSTListRegion.swift; sourceTree = "<group>"; };
+		67094765246BC4F3004C1473 /* DSTListLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSTListLocation.swift; sourceTree = "<group>"; };
+		6709476A246BC4F3004C1473 /* DstEntryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DstEntryType.swift; sourceTree = "<group>"; };
+		6709830724DA93E600120C9D /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		6709830924DAB8E500120C9D /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussinesDaysFilterType.swift; sourceTree = "<group>"; };
+		6710592924C5A11900791274 /* MoonPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
+		6710592D24C6C78100791274 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		67593DE524498DAC00FE8D71 /* AstronomyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyServiceTests.swift; sourceTree = "<group>"; };
+		67593DFA24498E7600FE8D71 /* libtadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libtadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67593DFC24498E7600FE8D71 /* TadApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TadApiTests.swift; sourceTree = "<group>"; };
+		67593DFE24498E7600FE8D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676DF49C2473B7CE00FDAFBF /* DSTListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTListService.swift; sourceTree = "<group>"; };
+		676DF4A02473BA0100FDAFBF /* HolidaysRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysRequest.swift; sourceTree = "<group>"; };
+		676DF4AF2474F99C00FDAFBF /* HolidaysResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidaysResponse.swift; sourceTree = "<group>"; };
+		676DF4B32474F99C00FDAFBF /* HolidayType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayType.swift; sourceTree = "<group>"; };
+		676DF4BF2474FE8100FDAFBF /* HolidaysService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysService.swift; sourceTree = "<group>"; };
+		676DF4C32474FFD600FDAFBF /* PlacesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesRequest.swift; sourceTree = "<group>"; };
+		676DF4C52475004800FDAFBF /* PlaceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceType.swift; sourceTree = "<group>"; };
+		676DF4C62475004800FDAFBF /* PlacesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesResponse.swift; sourceTree = "<group>"; };
+		676DF4CF2475016100FDAFBF /* PlacesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesService.swift; sourceTree = "<group>"; };
+		6776FD3E247BEE080031A822 /* AstronomyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyType.swift; sourceTree = "<group>"; };
+		6776FD40247BEE080031A822 /* AstronomyObjectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyObjectType.swift; sourceTree = "<group>"; };
+		6776FD41247BEE090031A822 /* TimeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeResponse.swift; sourceTree = "<group>"; };
+		6776FD42247BEE090031A822 /* AstronomyEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyEventType.swift; sourceTree = "<group>"; };
+		6776FD53247BFEA90031A822 /* TimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeService.swift; sourceTree = "<group>"; };
+		677E1BD324BF069500D917F2 /* BusinessDaysOperatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDaysOperatorType.swift; sourceTree = "<group>"; };
+		6788BD9D2488DE0F000C4A7B /* DSTEntrySpecialType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTEntrySpecialType.swift; sourceTree = "<group>"; };
+		6788BD9F2488F7BB000C4A7B /* HolidayStateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayStateType.swift; sourceTree = "<group>"; };
+		6788BDA124890DED000C4A7B /* AstronomySpecialType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomySpecialType.swift; sourceTree = "<group>"; };
+		6788BDA5248A7316000C4A7B /* BusinessHolidayType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessHolidayType.swift; sourceTree = "<group>"; };
+		6788BDA7248DF9F2000C4A7B /* DSTListServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTListServiceTests.swift; sourceTree = "<group>"; };
+		6788BDA9248E099E000C4A7B /* HolidaysServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysServiceTests.swift; sourceTree = "<group>"; };
+		6788BDAB248E0B78000C4A7B /* PlacesServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesServiceTests.swift; sourceTree = "<group>"; };
+		6788BDAD248E0BEF000C4A7B /* TimeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeServiceTests.swift; sourceTree = "<group>"; };
+		6788BDB4248E259F000C4A7B /* libtad_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libtad_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6788BDB6248E259F000C4A7B /* TadApi_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TadApi_macOS.h; sourceTree = "<group>"; };
+		6788BDB7248E259F000C4A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678D95082456E663000C2DBA /* ResponseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHelper.swift; sourceTree = "<group>"; };
+		678D950A2456F092000C2DBA /* AstronomyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyRequest.swift; sourceTree = "<group>"; };
+		678D950F24581E35000C2DBA /* AstrodataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrodataRequest.swift; sourceTree = "<group>"; };
+		678D951124581F4C000C2DBA /* AstrodataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrodataService.swift; sourceTree = "<group>"; };
+		678D9516245AB256000C2DBA /* AstroDataAstronomy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroDataAstronomy.swift; sourceTree = "<group>"; };
+		678D951C245AB257000C2DBA /* LocationAstroType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAstroType.swift; sourceTree = "<group>"; };
+		678D951D245AB257000C2DBA /* AstroDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroDataResponse.swift; sourceTree = "<group>"; };
+		678D9526245AB2E3000C2DBA /* AstronomyDataAstronomy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyDataAstronomy.swift; sourceTree = "<group>"; };
+		678D9527245AB2E3000C2DBA /* AstronomyObjectDetailsType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyObjectDetailsType.swift; sourceTree = "<group>"; };
+		678D9528245AB2E3000C2DBA /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		678D9529245AB2E3000C2DBA /* AstronomyDayEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyDayEvent.swift; sourceTree = "<group>"; };
+		678D952A245AB2E3000C2DBA /* Billing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Billing.swift; sourceTree = "<group>"; };
+		678D952B245AB2E3000C2DBA /* AstronomyDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyDataResponse.swift; sourceTree = "<group>"; };
+		678D952C245AB2E3000C2DBA /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		678D952D245AB2E3000C2DBA /* AstronomyDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyDay.swift; sourceTree = "<group>"; };
+		678D952F245AB2E4000C2DBA /* AstronomyCurrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyCurrent.swift; sourceTree = "<group>"; };
+		678D953C245AC803000C2DBA /* AstroDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroDataServiceTests.swift; sourceTree = "<group>"; };
+		679F008B244833ED00035B79 /* libtad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libtad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679F008E244833ED00035B79 /* TadApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TadApi.h; sourceTree = "<group>"; };
+		679F008F244833ED00035B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679F0098244834D300035B79 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		679F009A244834D300035B79 /* TadEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TadEndPoint.swift; sourceTree = "<group>"; };
+		679F009C244834D300035B79 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		679F009D244834D300035B79 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		679F009E244834D300035B79 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		679F009F244834D300035B79 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		679F00A0244834D300035B79 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		679F00A2244834D300035B79 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		679F00A3244834D300035B79 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		679F00A4244834D300035B79 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		679F00A6244834D300035B79 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		679F00B5244834D300035B79 /* EventClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventClass.swift; sourceTree = "<group>"; };
+		679F00B6244834D300035B79 /* AstroObjectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstroObjectType.swift; sourceTree = "<group>"; };
+		679F00B7244834D300035B79 /* EventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		679F00C0244834D300035B79 /* AstronomyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyService.swift; sourceTree = "<group>"; };
+		679F00C1244834D300035B79 /* ServiceErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceErrors.swift; sourceTree = "<group>"; };
+		679F00C3244834D300035B79 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		679F00E82448352400035B79 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Network.framework; sourceTree = DEVELOPER_DIR; };
+		679F00EA2448352A00035B79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		67A2C59A24D17C0F005FEB6B /* HolidayTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayTypes.swift; sourceTree = "<group>"; };
+		67A2C59C24D40CF5005FEB6B /* AstronomyEventCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyEventCodes.swift; sourceTree = "<group>"; };
+		67A2C59E24D7D39D005FEB6B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		67C32AC62477CF8A009BE8F8 /* TimeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRequest.swift; sourceTree = "<group>"; };
+		B3AE1B6024DA93FE0076AD3E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67593DF724498E7600FE8D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67593DFF24498E7600FE8D71 /* libtad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6788BDB1248E259F000C4A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6788BE17248E2700000C4A7B /* CFNetwork.framework in Frameworks */,
+				6788BE18248E2700000C4A7B /* Network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679F0088244833ED00035B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679F00EB2448352A00035B79 /* CFNetwork.framework in Frameworks */,
+				679F00E92448352400035B79 /* Network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67094726246926C6004C1473 /* BusinessDuration */ = {
+			isa = PBXGroup;
+			children = (
+				67094729246928F1004C1473 /* Models */,
+				6709472724692705004C1473 /* BusinessDurationRequest.swift */,
+				6709473C2469383E004C1473 /* BusinessDurationService.swift */,
+			);
+			path = BusinessDuration;
+			sourceTree = "<group>";
+		};
+		67094729246928F1004C1473 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6709473124692DBC004C1473 /* BusinessDurationResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67094740246953CB004C1473 /* ConvertTime */ = {
+			isa = PBXGroup;
+			children = (
+				67094741246953EB004C1473 /* Models */,
+				6709474224695402004C1473 /* ConvertTimeRequest.swift */,
+				67094756246BBE05004C1473 /* ConvertTimeService.swift */,
+			);
+			path = ConvertTime;
+			sourceTree = "<group>";
+		};
+		67094741246953EB004C1473 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67094746246BB45C004C1473 /* ConvertTimeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6709475A246BBF64004C1473 /* DSTList */ = {
+			isa = PBXGroup;
+			children = (
+				6709475B246BBF82004C1473 /* Models */,
+				6709475C246BBF94004C1473 /* DSTListRequest.swift */,
+				676DF49C2473B7CE00FDAFBF /* DSTListService.swift */,
+			);
+			path = DSTList;
+			sourceTree = "<group>";
+		};
+		6709475B246BBF82004C1473 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6709476A246BC4F3004C1473 /* DstEntryType.swift */,
+				67094765246BC4F3004C1473 /* DSTListLocation.swift */,
+				67094764246BC4F3004C1473 /* DSTListRegion.swift */,
+				67094761246BC4F3004C1473 /* DSTListResponse.swift */,
+				6788BD9D2488DE0F000C4A7B /* DSTEntrySpecialType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67593DFB24498E7600FE8D71 /* TadApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				67593DE524498DAC00FE8D71 /* AstronomyServiceTests.swift */,
+				678D953C245AC803000C2DBA /* AstroDataServiceTests.swift */,
+				670947242463D9CF004C1473 /* BusinessDateTests.swift */,
+				6709473E246939FC004C1473 /* BusinessDurationTests.swift */,
+				67094758246BBEBF004C1473 /* ConvertTimeServiceTests.swift */,
+				6788BDA7248DF9F2000C4A7B /* DSTListServiceTests.swift */,
+				6788BDA9248E099E000C4A7B /* HolidaysServiceTests.swift */,
+				6788BDAB248E0B78000C4A7B /* PlacesServiceTests.swift */,
+				6788BDAD248E0BEF000C4A7B /* TimeServiceTests.swift */,
+				67593DFC24498E7600FE8D71 /* TadApiTests.swift */,
+				67593DFE24498E7600FE8D71 /* Info.plist */,
+			);
+			path = TadApiTests;
+			sourceTree = "<group>";
+		};
+		676DF49E2473B9B000FDAFBF /* Holidays */ = {
+			isa = PBXGroup;
+			children = (
+				676DF4A22473BA9300FDAFBF /* Types */,
+				676DF49F2473B9E700FDAFBF /* Models */,
+				676DF4A02473BA0100FDAFBF /* HolidaysRequest.swift */,
+				676DF4BF2474FE8100FDAFBF /* HolidaysService.swift */,
+			);
+			path = Holidays;
+			sourceTree = "<group>";
+		};
+		676DF49F2473B9E700FDAFBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6788BD9F2488F7BB000C4A7B /* HolidayStateType.swift */,
+				676DF4AF2474F99C00FDAFBF /* HolidaysResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		676DF4A22473BA9300FDAFBF /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				67A2C59A24D17C0F005FEB6B /* HolidayTypes.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		676DF4C12474FF9700FDAFBF /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				676DF4C22474FFB400FDAFBF /* Models */,
+				676DF4C32474FFD600FDAFBF /* PlacesRequest.swift */,
+				676DF4CF2475016100FDAFBF /* PlacesService.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		676DF4C22474FFB400FDAFBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				676DF4C52475004800FDAFBF /* PlaceType.swift */,
+				676DF4C62475004800FDAFBF /* PlacesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		677E1BD224BF063000D917F2 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				677E1BD324BF069500D917F2 /* BusinessDaysOperatorType.swift */,
+				6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */,
+				6710592924C5A11900791274 /* MoonPhase.swift */,
+				67A2C59C24D40CF5005FEB6B /* AstronomyEventCodes.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		6788BDB5248E259F000C4A7B /* TadApi macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6788BDB6248E259F000C4A7B /* TadApi_macOS.h */,
+				6788BDB7248E259F000C4A7B /* Info.plist */,
+			);
+			path = "TadApi macOS";
+			sourceTree = "<group>";
+		};
+		678D950E24581E09000C2DBA /* AstroData */ = {
+			isa = PBXGroup;
+			children = (
+				678D9513245AB10A000C2DBA /* Models */,
+				678D950F24581E35000C2DBA /* AstrodataRequest.swift */,
+				678D951124581F4C000C2DBA /* AstrodataService.swift */,
+			);
+			path = AstroData;
+			sourceTree = "<group>";
+		};
+		678D9513245AB10A000C2DBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				678D9516245AB256000C2DBA /* AstroDataAstronomy.swift */,
+				678D951D245AB257000C2DBA /* AstroDataResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		678D953A245AB2FA000C2DBA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				677E1BD224BF063000D917F2 /* Types */,
+				678D953B245AB301000C2DBA /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		678D953B245AB301000C2DBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				678D951C245AB257000C2DBA /* LocationAstroType.swift */,
+				676DF4B32474F99C00FDAFBF /* HolidayType.swift */,
+				670947102463C4E5004C1473 /* Period.swift */,
+				6788BDA5248A7316000C4A7B /* BusinessHolidayType.swift */,
+				678D9527245AB2E3000C2DBA /* AstronomyObjectDetailsType.swift */,
+				678D952F245AB2E4000C2DBA /* AstronomyCurrent.swift */,
+				678D952D245AB2E3000C2DBA /* AstronomyDay.swift */,
+				678D9529245AB2E3000C2DBA /* AstronomyDayEvent.swift */,
+				6709470B2463C4E5004C1473 /* TextType.swift */,
+				678D9528245AB2E3000C2DBA /* Geo.swift */,
+				67094747246BB45C004C1473 /* LocationType.swift */,
+				678D952A245AB2E3000C2DBA /* Billing.swift */,
+				678D952C245AB2E3000C2DBA /* Country.swift */,
+				6709474C246BB45D004C1473 /* TimeZoneType.swift */,
+				67094744246BB45C004C1473 /* TimeType.swift */,
+				6709475E246BC4F2004C1473 /* VerboseTimeChangeType.swift */,
+				67094745246BB45C004C1473 /* Utc.swift */,
+				67094763246BC4F3004C1473 /* Timechange.swift */,
+				6709470A2463C4E5004C1473 /* WeekdaysType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		678D953E245AFC70000C2DBA /* BusinessDate */ = {
+			isa = PBXGroup;
+			children = (
+				678D953F245AFC86000C2DBA /* Models */,
+				67094708246296D4004C1473 /* BusinessDateRequest.swift */,
+				670947222463D1FB004C1473 /* BusinessDateService.swift */,
+			);
+			path = BusinessDate;
+			sourceTree = "<group>";
+		};
+		678D953F245AFC86000C2DBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				670947112463C4E5004C1473 /* BusinessDateResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		679F0081244833ED00035B79 = {
+			isa = PBXGroup;
+			children = (
+				B3AE1B6024DA93FE0076AD3E /* README.md */,
+				679F008D244833ED00035B79 /* TadApi */,
+				67593DFB24498E7600FE8D71 /* TadApiTests */,
+				6788BDB5248E259F000C4A7B /* TadApi macOS */,
+				679F008C244833ED00035B79 /* Products */,
+				679F00E72448352400035B79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		679F008C244833ED00035B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				679F008B244833ED00035B79 /* libtad.framework */,
+				67593DFA24498E7600FE8D71 /* libtadTests.xctest */,
+				6788BDB4248E259F000C4A7B /* libtad_macOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		679F008D244833ED00035B79 /* TadApi */ = {
+			isa = PBXGroup;
+			children = (
+				679F00B2244834D300035B79 /* ApiServices */,
+				679F00C2244834D300035B79 /* Helpers */,
+				679F0096244834D300035B79 /* Networking */,
+				679F00A5244834D300035B79 /* Utils */,
+				679F008E244833ED00035B79 /* TadApi.h */,
+				679F008F244833ED00035B79 /* Info.plist */,
+				67A2C59E24D7D39D005FEB6B /* Extensions.swift */,
+			);
+			path = TadApi;
+			sourceTree = "<group>";
+		};
+		679F0096244834D300035B79 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				679F0097244834D300035B79 /* Manager */,
+				679F0099244834D300035B79 /* EndPoint */,
+				679F009B244834D300035B79 /* Service */,
+				679F00A1244834D300035B79 /* Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		679F0097244834D300035B79 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				679F0098244834D300035B79 /* NetworkManager.swift */,
+				6709830924DAB8E500120C9D /* ServiceProtocol.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		679F0099244834D300035B79 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				679F009A244834D300035B79 /* TadEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		679F009B244834D300035B79 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				679F009C244834D300035B79 /* HTTPTask.swift */,
+				679F009D244834D300035B79 /* HTTPMethod.swift */,
+				679F009E244834D300035B79 /* Router.swift */,
+				679F009F244834D300035B79 /* NetworkLogger.swift */,
+				679F00A0244834D300035B79 /* EndPointType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		679F00A1244834D300035B79 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				679F00A2244834D300035B79 /* ParameterEncoding.swift */,
+				679F00A3244834D300035B79 /* URLParameterEncoding.swift */,
+				679F00A4244834D300035B79 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		679F00A5244834D300035B79 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				679F00A6244834D300035B79 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		679F00B2244834D300035B79 /* ApiServices */ = {
+			isa = PBXGroup;
+			children = (
+				679F00B3244834D300035B79 /* Astronomy */,
+				678D950E24581E09000C2DBA /* AstroData */,
+				678D953E245AFC70000C2DBA /* BusinessDate */,
+				67094726246926C6004C1473 /* BusinessDuration */,
+				67094740246953CB004C1473 /* ConvertTime */,
+				6709475A246BBF64004C1473 /* DSTList */,
+				676DF49E2473B9B000FDAFBF /* Holidays */,
+				676DF4C12474FF9700FDAFBF /* Places */,
+				67C32AC42477CF64009BE8F8 /* Time */,
+				678D953A245AB2FA000C2DBA /* Common */,
+				679F00C1244834D300035B79 /* ServiceErrors.swift */,
+				678D95082456E663000C2DBA /* ResponseHelper.swift */,
+				6710592D24C6C78100791274 /* BaseResponse.swift */,
+				6709830724DA93E600120C9D /* BaseService.swift */,
+			);
+			path = ApiServices;
+			sourceTree = "<group>";
+		};
+		679F00B3244834D300035B79 /* Astronomy */ = {
+			isa = PBXGroup;
+			children = (
+				679F00B4244834D300035B79 /* Types */,
+				679F00B8244834D300035B79 /* Models */,
+				679F00C0244834D300035B79 /* AstronomyService.swift */,
+				678D950A2456F092000C2DBA /* AstronomyRequest.swift */,
+			);
+			path = Astronomy;
+			sourceTree = "<group>";
+		};
+		679F00B4244834D300035B79 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				679F00B5244834D300035B79 /* EventClass.swift */,
+				679F00B6244834D300035B79 /* AstroObjectType.swift */,
+				679F00B7244834D300035B79 /* EventType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		679F00B8244834D300035B79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				678D9526245AB2E3000C2DBA /* AstronomyDataAstronomy.swift */,
+				678D952B245AB2E3000C2DBA /* AstronomyDataResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		679F00C2244834D300035B79 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				679F00C3244834D300035B79 /* Crypto.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		679F00E72448352400035B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				679F00EA2448352A00035B79 /* CFNetwork.framework */,
+				679F00E82448352400035B79 /* Network.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67C32AC42477CF64009BE8F8 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				67C32AC52477CF6E009BE8F8 /* Models */,
+				67C32AC62477CF8A009BE8F8 /* TimeRequest.swift */,
+				6776FD53247BFEA90031A822 /* TimeService.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		67C32AC52477CF6E009BE8F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6776FD3E247BEE080031A822 /* AstronomyType.swift */,
+				6776FD42247BEE090031A822 /* AstronomyEventType.swift */,
+				6776FD40247BEE080031A822 /* AstronomyObjectType.swift */,
+				6788BDA124890DED000C4A7B /* AstronomySpecialType.swift */,
+				6776FD41247BEE090031A822 /* TimeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6788BDAF248E259F000C4A7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6788BDB8248E259F000C4A7B /* TadApi_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679F0086244833ED00035B79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679F0090244833ED00035B79 /* TadApi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67593DF924498E7600FE8D71 /* libtadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67593E0224498E7600FE8D71 /* Build configuration list for PBXNativeTarget "libtadTests" */;
+			buildPhases = (
+				67593DF624498E7600FE8D71 /* Sources */,
+				67593DF724498E7600FE8D71 /* Frameworks */,
+				67593DF824498E7600FE8D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67593E0124498E7600FE8D71 /* PBXTargetDependency */,
+			);
+			name = libtadTests;
+			productName = TadApiTests;
+			productReference = 67593DFA24498E7600FE8D71 /* libtadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6788BDB3248E259F000C4A7B /* libtad macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6788BDB9248E259F000C4A7B /* Build configuration list for PBXNativeTarget "libtad macOS" */;
+			buildPhases = (
+				6788BDAF248E259F000C4A7B /* Headers */,
+				6788BDB0248E259F000C4A7B /* Sources */,
+				6788BDB1248E259F000C4A7B /* Frameworks */,
+				6788BDB2248E259F000C4A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libtad macOS";
+			productName = "TadApi macOS";
+			productReference = 6788BDB4248E259F000C4A7B /* libtad_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		679F008A244833ED00035B79 /* libtad iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 679F0093244833ED00035B79 /* Build configuration list for PBXNativeTarget "libtad iOS" */;
+			buildPhases = (
+				679F0086244833ED00035B79 /* Headers */,
+				679F0087244833ED00035B79 /* Sources */,
+				679F0088244833ED00035B79 /* Frameworks */,
+				679F0089244833ED00035B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libtad iOS";
+			productName = TadApi;
+			productReference = 679F008B244833ED00035B79 /* libtad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		679F0082244833ED00035B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Time and Date";
+				TargetAttributes = {
+					67593DF924498E7600FE8D71 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					6788BDB3248E259F000C4A7B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					679F008A244833ED00035B79 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 679F0085244833ED00035B79 /* Build configuration list for PBXProject "libtad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 679F0081244833ED00035B79;
+			productRefGroup = 679F008C244833ED00035B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				679F008A244833ED00035B79 /* libtad iOS */,
+				6788BDB3248E259F000C4A7B /* libtad macOS */,
+				67593DF924498E7600FE8D71 /* libtadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67593DF824498E7600FE8D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6788BDB2248E259F000C4A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679F0089244833ED00035B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67593DF624498E7600FE8D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6788BDAE248E0BEF000C4A7B /* TimeServiceTests.swift in Sources */,
+				6788BDA8248DF9F2000C4A7B /* DSTListServiceTests.swift in Sources */,
+				6709473F246939FC004C1473 /* BusinessDurationTests.swift in Sources */,
+				67593E0524498F6900FE8D71 /* AstronomyServiceTests.swift in Sources */,
+				67593DFD24498E7600FE8D71 /* TadApiTests.swift in Sources */,
+				678D953D245AC803000C2DBA /* AstroDataServiceTests.swift in Sources */,
+				67094759246BBEBF004C1473 /* ConvertTimeServiceTests.swift in Sources */,
+				6788BDAA248E099E000C4A7B /* HolidaysServiceTests.swift in Sources */,
+				6788BDAC248E0B78000C4A7B /* PlacesServiceTests.swift in Sources */,
+				670947252463D9CF004C1473 /* BusinessDateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6788BDB0248E259F000C4A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6788BDBC248E26B4000C4A7B /* EventClass.swift in Sources */,
+				6788BDBD248E26B4000C4A7B /* AstroObjectType.swift in Sources */,
+				6788BDBE248E26B4000C4A7B /* EventType.swift in Sources */,
+				6788BDBF248E26B4000C4A7B /* AstronomyDataAstronomy.swift in Sources */,
+				6788BDC1248E26B4000C4A7B /* AstronomyObjectDetailsType.swift in Sources */,
+				6788BDC2248E26B5000C4A7B /* AstronomyDataResponse.swift in Sources */,
+				6788BDC3248E26B5000C4A7B /* AstronomyService.swift in Sources */,
+				6788BDC4248E26B5000C4A7B /* AstronomyRequest.swift in Sources */,
+				6788BDC5248E26B5000C4A7B /* AstroDataAstronomy.swift in Sources */,
+				6788BDC6248E26B5000C4A7B /* LocationAstroType.swift in Sources */,
+				6788BDC8248E26B5000C4A7B /* AstroDataResponse.swift in Sources */,
+				6788BDC9248E26B5000C4A7B /* AstrodataRequest.swift in Sources */,
+				6788BDCA248E26B5000C4A7B /* AstrodataService.swift in Sources */,
+				6788BDCB248E26B5000C4A7B /* BusinessDateResponse.swift in Sources */,
+				6788BDCC248E26B5000C4A7B /* BusinessDateRequest.swift in Sources */,
+				6788BDCD248E26B5000C4A7B /* BusinessDateService.swift in Sources */,
+				6788BDCE248E26B5000C4A7B /* BusinessDurationResponse.swift in Sources */,
+				6788BDCF248E26B5000C4A7B /* BusinessDurationRequest.swift in Sources */,
+				6788BDD0248E26B5000C4A7B /* BusinessDurationService.swift in Sources */,
+				6788BDD1248E26B5000C4A7B /* ConvertTimeResponse.swift in Sources */,
+				6788BDD2248E26B5000C4A7B /* ConvertTimeRequest.swift in Sources */,
+				6788BDD3248E26B5000C4A7B /* ConvertTimeService.swift in Sources */,
+				6788BDD4248E26B5000C4A7B /* DstEntryType.swift in Sources */,
+				6788BDD5248E26B5000C4A7B /* DSTListLocation.swift in Sources */,
+				6788BDD6248E26B5000C4A7B /* DSTListRegion.swift in Sources */,
+				6788BDD7248E26B5000C4A7B /* DSTListResponse.swift in Sources */,
+				6788BDD8248E26B5000C4A7B /* DSTEntrySpecialType.swift in Sources */,
+				6788BDD9248E26B5000C4A7B /* DSTListRequest.swift in Sources */,
+				6788BDDA248E26B5000C4A7B /* DSTListService.swift in Sources */,
+				6788BDE1248E26B6000C4A7B /* HolidayStateType.swift in Sources */,
+				6788BDE2248E26B6000C4A7B /* HolidaysResponse.swift in Sources */,
+				6788BDE3248E26B6000C4A7B /* HolidaysRequest.swift in Sources */,
+				6788BDE4248E26B6000C4A7B /* HolidaysService.swift in Sources */,
+				6788BDE5248E26B6000C4A7B /* PlaceType.swift in Sources */,
+				6788BDE6248E26B6000C4A7B /* PlacesResponse.swift in Sources */,
+				6788BDE7248E26B6000C4A7B /* PlacesRequest.swift in Sources */,
+				6788BDE8248E26B6000C4A7B /* PlacesService.swift in Sources */,
+				6788BDE9248E26B6000C4A7B /* AstronomyType.swift in Sources */,
+				6788BDEA248E26B6000C4A7B /* AstronomyEventType.swift in Sources */,
+				6788BDEB248E26B6000C4A7B /* AstronomyObjectType.swift in Sources */,
+				6788BDEC248E26B6000C4A7B /* AstronomySpecialType.swift in Sources */,
+				6788BDED248E26B6000C4A7B /* TimeResponse.swift in Sources */,
+				6788BDEE248E26B6000C4A7B /* TimeRequest.swift in Sources */,
+				6788BDEF248E26B6000C4A7B /* TimeService.swift in Sources */,
+				6788BDF0248E26B6000C4A7B /* HolidayType.swift in Sources */,
+				6788BDF1248E26B6000C4A7B /* Period.swift in Sources */,
+				6788BDF2248E26B6000C4A7B /* BusinessHolidayType.swift in Sources */,
+				6788BDF3248E26B6000C4A7B /* AstronomyCurrent.swift in Sources */,
+				6788BDF4248E26B6000C4A7B /* AstronomyDay.swift in Sources */,
+				6788BDF5248E26B6000C4A7B /* AstronomyDayEvent.swift in Sources */,
+				6788BDF6248E26B6000C4A7B /* TextType.swift in Sources */,
+				6788BDF7248E26B6000C4A7B /* Geo.swift in Sources */,
+				6788BDF8248E26B6000C4A7B /* LocationType.swift in Sources */,
+				6788BDF9248E26B6000C4A7B /* Billing.swift in Sources */,
+				6788BDFA248E26B6000C4A7B /* Country.swift in Sources */,
+				6788BDFB248E26B6000C4A7B /* TimeZoneType.swift in Sources */,
+				6788BDFD248E26B7000C4A7B /* TimeType.swift in Sources */,
+				6788BDFE248E26B7000C4A7B /* VerboseTimeChangeType.swift in Sources */,
+				6788BE00248E26B7000C4A7B /* Utc.swift in Sources */,
+				6788BE01248E26B7000C4A7B /* Timechange.swift in Sources */,
+				6788BE02248E26B7000C4A7B /* WeekdaysType.swift in Sources */,
+				6788BE03248E26B7000C4A7B /* ServiceErrors.swift in Sources */,
+				6788BE04248E26B7000C4A7B /* ResponseHelper.swift in Sources */,
+				6788BE05248E26B7000C4A7B /* Crypto.swift in Sources */,
+				6788BE06248E26B7000C4A7B /* NetworkManager.swift in Sources */,
+				6788BE07248E26B7000C4A7B /* TadEndPoint.swift in Sources */,
+				6788BE08248E26B7000C4A7B /* HTTPTask.swift in Sources */,
+				6788BE09248E26B7000C4A7B /* HTTPMethod.swift in Sources */,
+				6788BE0A248E26B7000C4A7B /* Router.swift in Sources */,
+				6788BE0B248E26B7000C4A7B /* NetworkLogger.swift in Sources */,
+				6788BE0C248E26B7000C4A7B /* EndPointType.swift in Sources */,
+				6788BE0D248E26B7000C4A7B /* ParameterEncoding.swift in Sources */,
+				6788BE0E248E26B7000C4A7B /* URLParameterEncoding.swift in Sources */,
+				6788BE0F248E26B7000C4A7B /* JSONParameterEncoder.swift in Sources */,
+				6788BE10248E26B7000C4A7B /* Constants.swift in Sources */,
+				6788BE13248E26B7000C4A7B /* TadApi.h in Sources */,
+				6788BE15248E26B7000C4A7B /* TadApi_macOS.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679F0087244833ED00035B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6788BDA6248A7316000C4A7B /* BusinessHolidayType.swift in Sources */,
+				679F00CE244834D300035B79 /* JSONParameterEncoder.swift in Sources */,
+				678D9536245AB2E4000C2DBA /* Country.swift in Sources */,
+				67094772246BC4F3004C1473 /* DSTListRegion.swift in Sources */,
+				67094773246BC4F3004C1473 /* DSTListLocation.swift in Sources */,
+				6776FD50247BEE090031A822 /* AstronomyObjectType.swift in Sources */,
+				6776FD4E247BEE090031A822 /* AstronomyType.swift in Sources */,
+				678D9539245AB2E4000C2DBA /* AstronomyCurrent.swift in Sources */,
+				679F00CF244834D300035B79 /* Constants.swift in Sources */,
+				678D9535245AB2E4000C2DBA /* AstronomyDataResponse.swift in Sources */,
+				6788BDA224890DED000C4A7B /* AstronomySpecialType.swift in Sources */,
+				676DF4D02475016100FDAFBF /* PlacesService.swift in Sources */,
+				678D9533245AB2E4000C2DBA /* AstronomyDayEvent.swift in Sources */,
+				670947162463C4E5004C1473 /* WeekdaysType.swift in Sources */,
+				676DF4CA2475004800FDAFBF /* PlaceType.swift in Sources */,
+				67094709246296D5004C1473 /* BusinessDateRequest.swift in Sources */,
+				6709473D2469383E004C1473 /* BusinessDurationService.swift in Sources */,
+				6709476C246BC4F3004C1473 /* VerboseTimeChangeType.swift in Sources */,
+				67A2C59F24D7D39D005FEB6B /* Extensions.swift in Sources */,
+				6709476F246BC4F3004C1473 /* DSTListResponse.swift in Sources */,
+				67C32AC72477CF8A009BE8F8 /* TimeRequest.swift in Sources */,
+				6709472824692705004C1473 /* BusinessDurationRequest.swift in Sources */,
+				679F00E6244834D300035B79 /* Crypto.swift in Sources */,
+				6709474D246BB45D004C1473 /* TimeType.swift in Sources */,
+				676DF4B72474F99D00FDAFBF /* HolidaysResponse.swift in Sources */,
+				678D950B2456F092000C2DBA /* AstronomyRequest.swift in Sources */,
+				676DF4CB2475004800FDAFBF /* PlacesResponse.swift in Sources */,
+				679F00CA244834D300035B79 /* NetworkLogger.swift in Sources */,
+				679F00C8244834D300035B79 /* HTTPMethod.swift in Sources */,
+				67094750246BB45D004C1473 /* LocationType.swift in Sources */,
+				678D9525245AB257000C2DBA /* AstroDataResponse.swift in Sources */,
+				6709473A24692DBC004C1473 /* BusinessDurationResponse.swift in Sources */,
+				678D9530245AB2E4000C2DBA /* AstronomyDataAstronomy.swift in Sources */,
+				679F00E4244834D300035B79 /* AstronomyService.swift in Sources */,
+				6710592A24C5A11900791274 /* MoonPhase.swift in Sources */,
+				679F00CC244834D300035B79 /* ParameterEncoding.swift in Sources */,
+				6788BD9E2488DE0F000C4A7B /* DSTEntrySpecialType.swift in Sources */,
+				678D95092456E663000C2DBA /* ResponseHelper.swift in Sources */,
+				676DF4C02474FE8100FDAFBF /* HolidaysService.swift in Sources */,
+				678D951E245AB257000C2DBA /* AstroDataAstronomy.swift in Sources */,
+				6710592E24C6C78100791274 /* BaseResponse.swift in Sources */,
+				6710592824C59C8D00791274 /* BussinesDaysFilterType.swift in Sources */,
+				676DF49D2473B7CE00FDAFBF /* DSTListService.swift in Sources */,
+				679F00C7244834D300035B79 /* HTTPTask.swift in Sources */,
+				678D9534245AB2E4000C2DBA /* Billing.swift in Sources */,
+				679F00E5244834D300035B79 /* ServiceErrors.swift in Sources */,
+				679F00DC244834D300035B79 /* EventType.swift in Sources */,
+				67094757246BBE06004C1473 /* ConvertTimeService.swift in Sources */,
+				6709475D246BBF94004C1473 /* DSTListRequest.swift in Sources */,
+				6709474324695402004C1473 /* ConvertTimeRequest.swift in Sources */,
+				678D9531245AB2E4000C2DBA /* AstronomyObjectDetailsType.swift in Sources */,
+				678D9532245AB2E4000C2DBA /* Geo.swift in Sources */,
+				6709474E246BB45D004C1473 /* Utc.swift in Sources */,
+				678D9537245AB2E4000C2DBA /* AstronomyDay.swift in Sources */,
+				679F00C9244834D300035B79 /* Router.swift in Sources */,
+				670947172463C4E5004C1473 /* TextType.swift in Sources */,
+				67094755246BB45D004C1473 /* TimeZoneType.swift in Sources */,
+				67094771246BC4F3004C1473 /* Timechange.swift in Sources */,
+				676DF4A12473BA0100FDAFBF /* HolidaysRequest.swift in Sources */,
+				676DF4BB2474F99D00FDAFBF /* HolidayType.swift in Sources */,
+				6709471C2463C4E5004C1473 /* Period.swift in Sources */,
+				679F00DA244834D300035B79 /* EventClass.swift in Sources */,
+				6709830824DA93E600120C9D /* BaseService.swift in Sources */,
+				67A2C59D24D40CF5005FEB6B /* AstronomyEventCodes.swift in Sources */,
+				6776FD54247BFEA90031A822 /* TimeService.swift in Sources */,
+				6788BDA02488F7BB000C4A7B /* HolidayStateType.swift in Sources */,
+				6776FD52247BEE090031A822 /* AstronomyEventType.swift in Sources */,
+				67A2C59B24D17C0F005FEB6B /* HolidayTypes.swift in Sources */,
+				6709830A24DAB8E500120C9D /* ServiceProtocol.swift in Sources */,
+				6709471D2463C4E5004C1473 /* BusinessDateResponse.swift in Sources */,
+				678D9524245AB257000C2DBA /* LocationAstroType.swift in Sources */,
+				676DF4C42474FFD600FDAFBF /* PlacesRequest.swift in Sources */,
+				679F00C6244834D300035B79 /* TadEndPoint.swift in Sources */,
+				679F00DB244834D300035B79 /* AstroObjectType.swift in Sources */,
+				679F00C5244834D300035B79 /* NetworkManager.swift in Sources */,
+				6709474F246BB45D004C1473 /* ConvertTimeResponse.swift in Sources */,
+				679F00CD244834D300035B79 /* URLParameterEncoding.swift in Sources */,
+				678D951224581F4C000C2DBA /* AstrodataService.swift in Sources */,
+				677E1BD424BF069500D917F2 /* BusinessDaysOperatorType.swift in Sources */,
+				678D951024581E35000C2DBA /* AstrodataRequest.swift in Sources */,
+				670947232463D1FB004C1473 /* BusinessDateService.swift in Sources */,
+				67094778246BC4F3004C1473 /* DstEntryType.swift in Sources */,
+				679F00CB244834D300035B79 /* EndPointType.swift in Sources */,
+				6776FD51247BEE090031A822 /* TimeResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67593E0124498E7600FE8D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 679F008A244833ED00035B79 /* libtad iOS */;
+			targetProxy = 67593E0024498E7600FE8D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67593E0324498E7600FE8D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6M9AGM2EW;
+				INFOPLIST_FILE = TadApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeanddate.tadapi.TadApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67593E0424498E7600FE8D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6M9AGM2EW;
+				INFOPLIST_FILE = TadApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeanddate.tadapi.TadApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6788BDBA248E259F000C4A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R6M9AGM2EW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TadApi macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timeanddate.libtad-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6788BDBB248E259F000C4A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R6M9AGM2EW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TadApi macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timeanddate.libtad-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		679F0091244833ED00035B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		679F0092244833ED00035B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		679F0094244833ED00035B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R6M9AGM2EW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TadApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeanddate.libtad;
+				PRODUCT_NAME = libtad;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		679F0095244833ED00035B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R6M9AGM2EW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TadApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timeanddate.libtad;
+				PRODUCT_NAME = libtad;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67593E0224498E7600FE8D71 /* Build configuration list for PBXNativeTarget "libtadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67593E0324498E7600FE8D71 /* Debug */,
+				67593E0424498E7600FE8D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6788BDB9248E259F000C4A7B /* Build configuration list for PBXNativeTarget "libtad macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6788BDBA248E259F000C4A7B /* Debug */,
+				6788BDBB248E259F000C4A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679F0085244833ED00035B79 /* Build configuration list for PBXProject "libtad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679F0091244833ED00035B79 /* Debug */,
+				679F0092244833ED00035B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679F0093244833ED00035B79 /* Build configuration list for PBXNativeTarget "libtad iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679F0094244833ED00035B79 /* Debug */,
+				679F0095244833ED00035B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 679F0082244833ED00035B79 /* Project object */;
+}

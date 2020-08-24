@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HolidayType Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/HolidayType" class="dashAnchor"></a>
+    <a title="HolidayType Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TadApi 1.0.0 Docs</a> (90% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TadApi Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        HolidayType Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AstroDataResponse.html">AstroDataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstrodataRequest.html">AstrodataRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstrodataService.html">AstrodataService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstronomyDataResponse.html">AstronomyDataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstronomyRequest.html">AstronomyRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstronomyService.html">AstronomyService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDateRequest.html">BusinessDateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDateResponse.html">BusinessDateResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDateService.html">BusinessDateService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDurationRequest.html">BusinessDurationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDurationService.html">BusinessDurationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvertTimeRequest.html">ConvertTimeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvertTimeResponse.html">ConvertTimeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvertTimeService.html">ConvertTimeService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSTListRequest.html">DSTListRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSTListResponse.html">DSTListResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSTListService.html">DSTListService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HolidaysRequest.html">HolidaysRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HolidaysResponse.html">HolidaysResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HolidaysService.html">HolidaysService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlacesRequest.html">PlacesRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlacesResponse.html">PlacesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlacesService.html">PlacesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeRequest.html">TimeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeResponse.html">TimeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeService.html">TimeService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AstroObjectType.html">AstroObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AstronomyEventCodes.html">AstronomyEventCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BusinessDaysOperatorType.html">BusinessDaysOperatorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BussinesDaysFilterType.html">BussinesDaysFilterType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventClass.html">EventClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MoonPhase.html">MoonPhase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ServiceErrors.html">ServiceErrors</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AstroDataAstronomy.html">AstroDataAstronomy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyCurrent.html">AstronomyCurrent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyDataAstronomy.html">AstronomyDataAstronomy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyDay.html">AstronomyDay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyDayEvent.html">AstronomyDayEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyEventType.html">AstronomyEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyObjectDetailsType.html">AstronomyObjectDetailsType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyObjectType.html">AstronomyObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomySpecialType.html">AstronomySpecialType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyType.html">AstronomyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BusinessHolidayType.html">BusinessHolidayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Country.html">Country</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DSTEntrySpecialType.html">DSTEntrySpecialType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DSTListLocation.html">DSTListLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DSTListRegion.html">DSTListRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DstEntryType.html">DstEntryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Geo.html">Geo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HolidayStateType.html">HolidayStateType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HolidayType.html">HolidayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HolidayTypes.html">HolidayTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocationAstroType.html">LocationAstroType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocationType.html">LocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Period.html">Period</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PlaceType.html">PlaceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TextType.html">TextType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TimeType.html">TimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TimeZoneType.html">TimeZoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Timechange.html">Timechange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Utc.html">Utc</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VerboseTimeChangeType.html">VerboseTimeChangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WeekdaysType.html">WeekdaysType</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>HolidayType</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">HolidayType</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>HolidayType</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    SeeAlso:<a href="https://services.timeanddate.com/api/doc/v3/type-holiday.html">HolidayType</a>
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV2idSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV2idSiSgvp">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Identifier for the holiday definition. Please note that this id is not unique, not even with a single year – the same holiday event may be returned multiple time because it is observed on a different day, or because it is scheduled in a different calendar (Hebrew or Muslim calendar) and happens multiple times within a Gregorian year. Use the uid field for purposes where you need a unique identifier.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV3uidSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/uid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV3uidSSSgvp">uid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Id for the shown holiday instance. The id is designed to be unique across all holiday instances generated by the timeanddate.com API services and respects different calendars and other reasons that may cause events to occurs multiple times within one Gregorian year.
+Example: 0007d600000007db</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">uid</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV4nameSayAA04TextD0VGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV4nameSayAA04TextD0VGSgvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Holiday/Observance name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/TextType.html">TextType</a></span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV4dateAA04TimeD0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/date" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV4dateAA04TimeD0VSgvp">date</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date/time of the holiday instance. Most holidays do not have a specific time – in this case the time components will be skipped. Some special events like equinoxes and solstices include the exact time of the event as well, in this case the timestamp will be in local time zone (including time zone data) (countries with multiple time zones: local time in capital city).</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Request version 1 will return time in either local time or UTC (depending on the holiday type) with no time zone information and shall thus no longer be used.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">date</span><span class="p">:</span> <span class="kt"><a href="../Structs/TimeType.html">TimeType</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV7countryAA7CountryVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/country" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV7countryAA7CountryVSgvp">country</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Country of the holiday instance. This element is not present in businessdate and businessduration services.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">country</span><span class="p">:</span> <span class="kt"><a href="../Structs/Country.html">Country</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV9locationsSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/locations" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV9locationsSSSgvp">locations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Summary of locations where this holiday instance is valid. This element is not present in businessdate and businessduration services, and only present if the holiday instance does not affect the whole country.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">locations</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV6statesAA0c5StateD0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/states" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV6statesAA0c5StateD0VSgvp">states</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>States/subdivisions that are affected by this holiday instance. This element is not present in businessdate and businessduration services, and only present if the holiday instance is not valid in the whole country.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">states</span><span class="p">:</span> <span class="kt"><a href="../Structs/HolidayStateType.html">HolidayStateType</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV8onelinerSayAA04TextD0VGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/oneliner" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV8onelinerSayAA04TextD0VGSgvp">oneliner</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A short description of the holiday instance. This element is not present in businessdate and businessduration services.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">oneliner</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/TextType.html">TextType</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV5typesSaySSGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/types" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV5typesSaySSGSgvp">types</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Classification of the holiday. Most days have only one classification, bust some have multiple types associated. This happens e.g. in conjunction with religious days that also are flag days. This element is not present in businessdate and businessduration services.
+Example: National Holiday</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">types</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV3urlSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV3urlSSSgvp">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Further information about the specific holiday. The URL points to the timeanddate.com web page.
+Example: <a href="http://www.timeanddate.com/holidays/us/new-year-day">http://www.timeanddate.com/holidays/us/new-year-day</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi11HolidayTypeV5urlidSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/urlid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi11HolidayTypeV5urlidSSSgvp">urlid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Type: String</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">urlid</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://services.timeanddate.com" target="_blank" rel="external">Time and Date AS</a>. All rights reserved. (Last updated: 2020-08-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

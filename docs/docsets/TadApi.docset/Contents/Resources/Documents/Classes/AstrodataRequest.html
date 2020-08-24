@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AstrodataRequest Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AstrodataRequest" class="dashAnchor"></a>
+    <a title="AstrodataRequest Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TadApi 1.0.0 Docs</a> (90% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TadApi Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AstrodataRequest Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AstroDataResponse.html">AstroDataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstrodataRequest.html">AstrodataRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstrodataService.html">AstrodataService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstronomyDataResponse.html">AstronomyDataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstronomyRequest.html">AstronomyRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AstronomyService.html">AstronomyService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDateRequest.html">BusinessDateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDateResponse.html">BusinessDateResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDateService.html">BusinessDateService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDurationRequest.html">BusinessDurationRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessDurationService.html">BusinessDurationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvertTimeRequest.html">ConvertTimeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvertTimeResponse.html">ConvertTimeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvertTimeService.html">ConvertTimeService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSTListRequest.html">DSTListRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSTListResponse.html">DSTListResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSTListService.html">DSTListService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HolidaysRequest.html">HolidaysRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HolidaysResponse.html">HolidaysResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HolidaysService.html">HolidaysService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlacesRequest.html">PlacesRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlacesResponse.html">PlacesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlacesService.html">PlacesService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeRequest.html">TimeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeResponse.html">TimeResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TimeService.html">TimeService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AstroObjectType.html">AstroObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AstronomyEventCodes.html">AstronomyEventCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BusinessDaysOperatorType.html">BusinessDaysOperatorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BussinesDaysFilterType.html">BussinesDaysFilterType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventClass.html">EventClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MoonPhase.html">MoonPhase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ServiceErrors.html">ServiceErrors</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AstroDataAstronomy.html">AstroDataAstronomy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyCurrent.html">AstronomyCurrent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyDataAstronomy.html">AstronomyDataAstronomy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyDay.html">AstronomyDay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyDayEvent.html">AstronomyDayEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyEventType.html">AstronomyEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyObjectDetailsType.html">AstronomyObjectDetailsType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyObjectType.html">AstronomyObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomySpecialType.html">AstronomySpecialType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AstronomyType.html">AstronomyType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BusinessHolidayType.html">BusinessHolidayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Country.html">Country</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DSTEntrySpecialType.html">DSTEntrySpecialType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DSTListLocation.html">DSTListLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DSTListRegion.html">DSTListRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DstEntryType.html">DstEntryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Geo.html">Geo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HolidayStateType.html">HolidayStateType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HolidayType.html">HolidayType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HolidayTypes.html">HolidayTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocationAstroType.html">LocationAstroType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocationType.html">LocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Period.html">Period</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PlaceType.html">PlaceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TextType.html">TextType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TimeType.html">TimeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TimeZoneType.html">TimeZoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Timechange.html">Timechange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Utc.html">Utc</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VerboseTimeChangeType.html">VerboseTimeChangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WeekdaysType.html">WeekdaysType</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AstrodataRequest</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AstrodataRequest</span> <span class="p">:</span> <span class="kt">RequestObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>For more information, see <a href="http://services.timeanddate.com/api/doc/v3/srv-astrodata.html">astrodata – Calculate data on Astronomical Objects on Specific Times</a></p>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">astrodatRequest</span> <span class="o">=</span> <span class="kt">AstrodataRequest</span><span class="p">()</span>
+<span class="n">astrodatRequest</span><span class="o">.</span><span class="n">objects</span> <span class="o">=</span> <span class="s">"sun"</span>
+<span class="n">astrodatRequest</span><span class="o">.</span><span class="n">placeId</span> <span class="o">=</span> <span class="s">"norway/oslo"</span>
+<span class="n">astrodatRequest</span><span class="o">.</span><span class="n">interval</span> <span class="o">=</span> <span class="s">"2020-06-02T11:09:49"</span>
+</code></pre>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC7objectsSayAA15AstroObjectTypeOGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/objects" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC7objectsSayAA15AstroObjectTypeOGSgvp">objects</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specify which astronomical object you are interested in. To retrieve the information for multiple objects, the corresponding names can either be specified as a comma separated list, or by supplying the parameter multiple times (or any combination). Currently, only sun and moon are supported as objects.</p>
+
+<ul>
+<li>Type: String/Astronomical Object Id</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">objects</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Enums/AstroObjectType.html">AstroObjectType</a></span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC7placeIdSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/placeId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC7placeIdSSSgvp">placeId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specify the ID of the location you would like to retrieve information for. To retrieve the information for multiple places, the corresponding IDs can either be specified as a comma separated list, or by supplying the parameter multiple times (or any combination). There is a limit of maximum 10 locations per requests.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    It is also possible to specify coordinates or IATA/ICAO codes for airports, see the documentation for the type Location Id for detailed information.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">placeId</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC8intervalSaySSGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/interval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC8intervalSaySSGSgvp">interval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specify the point(s) in time you would like to calculate data for. Multiple results can be retrieved by specifying several timestamps separated by comma, maximum 50.</p>
+
+<ul>
+<li>Type: String/ISO8601 Timestamp</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">interval</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC9localtimeSbvp"></a>
+                    <a name="//apple_ref/swift/Property/localtime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC9localtimeSbvp">localtime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specify whether or not the intervals should be considered the local time for the place(s) or UTC time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">localtime</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC7isoTimeSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isoTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC7isoTimeSbvp">isoTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds time stamps (local time) in ISO 8601 format to all events.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isoTime</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC7utcTimeSbvp"></a>
+                    <a name="//apple_ref/swift/Property/utcTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC7utcTimeSbvp">utcTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds UTC time stamps in ISO 8601 format to all events.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">utcTime</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC4langSSvp"></a>
+                    <a name="//apple_ref/swift/Property/lang" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC4langSSvp">lang</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The preferred language for the texts. An error will be raised if the language code cannot be recognized. In case the text for a specific event cannot be retrieved in the requested language it will be returned in English instead. This is also the default language.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    NOTE:In case you have specific needs for a certain language/translation, please email <a href="mailto:api@timeanddate.com">api@timeanddate.com</a>.
+
+</div><div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    NOTE:Due to technical limitations, time zone names cannot be translated at the moment.
+
+</div><ul>
+<li>Type: String/<a href="https://services.timeanddate.com/api/doc/current/type-isolang.html">IISO639 Language Code </a></li>
+<li>Default value: en</li>
+<li>This parameter Optional!</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lang</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6TadApi16AstrodataRequestC6radiusSivp"></a>
+                    <a name="//apple_ref/swift/Property/radius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6TadApi16AstrodataRequestC6radiusSivp">radius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Search radius for translating coordinates (parameter placeid) to locations. Coordinates that could not be translated will yield results for the actual geographical position – if you would like to query for times at an exact location, specify a radius of zero (0).</p>
+
+<ul>
+<li>Default value: infinite (but only locations within the same country and time zone are considered)</li>
+<li>This parameter Optional!</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">radius</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://services.timeanddate.com" target="_blank" rel="external">Time and Date AS</a>. All rights reserved. (Last updated: 2020-08-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
