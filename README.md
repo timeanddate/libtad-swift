@@ -6,15 +6,15 @@ Use our API Services to tap into timeanddate.com's databases and integrate our d
 
 ## Service Reference
 
-- [astronomy – Get Information About Astronomical Objects](https://services.timeanddate.com/api/doc/v3/srv-astronomy.html).
-- [astrodata – Calculate data on Astronomical Objects on Specific Times](https://services.timeanddate.com/api/doc/v3/srv-astrodata.html).
-- [businessdate – Calculate business date from a given number of days](https://services.timeanddate.com/api/doc/v3/srv-businessdate.html).
-- [businessduration – Calculate business days in a specified date range](https://services.timeanddate.com/api/doc/v3/srv-businessduration.html).
-- [converttime – Convert Time Between Time Zones](https://services.timeanddate.com/api/doc/v3/srv-converttime.html).
-- [dstlist – Retrieve Daylight Saving Time Information](https://services.timeanddate.com/api/doc/v3/srv-dstlist.html).
-- [holidays – Retrieve List of Holidays](https://services.timeanddate.com/api/doc/v3/srv-holidays.html).
-- [places – Retrieve List of Available Places](https://services.timeanddate.com/api/doc/v3/srv-places.html).
-- [timeservice – Retrieve Current Time for Place](https://services.timeanddate.com/api/doc/v3/srv-timeservice.html).
+- [astronomy – Get Information About Astronomical Objects](https://dev.timeanddate.com/docs/astro/).
+- [astrodata – Calculate data on Astronomical Objects on Specific Times](https://dev.timeanddate.com/docs/astro/).
+- [businessdate – Calculate business date from a given number of days](https://dev.timeanddate.com/docs/calculator/).
+- [businessduration – Calculate business days in a specified date range](https://dev.timeanddate.com/docs/calculator/).
+- [converttime – Convert Time Between Time Zones](https://dev.timeanddate.com/docs/time/).
+- [dstlist – Retrieve Daylight Saving Time Information](https://dev.timeanddate.com/docs/time/).
+- [holidays – Retrieve List of Holidays](https://dev.timeanddate.com/docs/holidays/).
+- [places – Retrieve List of Available Places](https://dev.timeanddate.com/docs/places).
+- [timeservice – Retrieve Current Time for Place](https://dev.timeanddate.com/docs/time/).
 
 The requests created by this library use the an expiry date, 60s from creation. 
 
@@ -58,8 +58,8 @@ astronomyService.getAstronomicalInfo(request:astronomyRequest) { (result, error)
 
 ## Credits
 
-TadApi is owned and maintained by the [Time and Date AS](http://timeanddate.com). You can visit our API Reference at [timeanddate.com](https://services.timeanddate.com/api/doc/v3/) for project updates and releases.
+TadApi is owned and maintained by the [Time and Date AS](https://www.timeanddate.com). You can visit our API Reference at [timeanddate.com](https://dev.timeanddate.com/docs/toc) for project updates and releases.
 
 ## Author
 
-[Time and Date](https://timeanddate.com)
+[Time and Date](https://www.timeanddate.com)
