@@ -38,6 +38,7 @@
 		6710592824C59C8D00791274 /* BussinesDaysFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */; };
 		6710592A24C5A11900791274 /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592924C5A11900791274 /* MoonPhase.swift */; };
 		6710592E24C6C78100791274 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592D24C6C78100791274 /* BaseResponse.swift */; };
+		672CB4C727590196006C185A /* PlacesServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDAB248E0B78000C4A7B /* PlacesServiceTests.swift */; };
 		67593DFD24498E7600FE8D71 /* TadApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67593DFC24498E7600FE8D71 /* TadApiTests.swift */; };
 		67593DFF24498E7600FE8D71 /* libtad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F008B244833ED00035B79 /* libtad.framework */; };
 		67593E0524498F6900FE8D71 /* AstronomyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67593DE524498DAC00FE8D71 /* AstronomyServiceTests.swift */; };
@@ -970,6 +971,7 @@
 				6788BE0C248E26B7000C4A7B /* EndPointType.swift in Sources */,
 				6788BE0D248E26B7000C4A7B /* ParameterEncoding.swift in Sources */,
 				6788BE0E248E26B7000C4A7B /* URLParameterEncoding.swift in Sources */,
+				672CB4C727590196006C185A /* PlacesServiceTests.swift in Sources */,
 				6788BE0F248E26B7000C4A7B /* JSONParameterEncoder.swift in Sources */,
 				6788BE10248E26B7000C4A7B /* Constants.swift in Sources */,
 				6788BE13248E26B7000C4A7B /* TadApi.h in Sources */,
