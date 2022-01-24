@@ -35,7 +35,7 @@
 		67094778246BC4F3004C1473 /* DstEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709476A246BC4F3004C1473 /* DstEntryType.swift */; };
 		6709830824DA93E600120C9D /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709830724DA93E600120C9D /* BaseService.swift */; };
 		6709830A24DAB8E500120C9D /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709830924DAB8E500120C9D /* ServiceProtocol.swift */; };
-		6710592824C59C8D00791274 /* BussinesDaysFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */; };
+		6710592824C59C8D00791274 /* BusinessDaysFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592724C59C8D00791274 /* BusinessDaysFilterType.swift */; };
 		6710592A24C5A11900791274 /* MoonPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592924C5A11900791274 /* MoonPhase.swift */; };
 		6710592E24C6C78100791274 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710592D24C6C78100791274 /* BaseResponse.swift */; };
 		672CB4C727590196006C185A /* PlacesServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6788BDAB248E0B78000C4A7B /* PlacesServiceTests.swift */; };
@@ -227,7 +227,7 @@
 		6709476A246BC4F3004C1473 /* DstEntryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DstEntryType.swift; sourceTree = "<group>"; };
 		6709830724DA93E600120C9D /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		6709830924DAB8E500120C9D /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
-		6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussinesDaysFilterType.swift; sourceTree = "<group>"; };
+		6710592724C59C8D00791274 /* BusinessDaysFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDaysFilterType.swift; sourceTree = "<group>"; };
 		6710592924C5A11900791274 /* MoonPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonPhase.swift; sourceTree = "<group>"; };
 		6710592D24C6C78100791274 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		67593DE524498DAC00FE8D71 /* AstronomyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyServiceTests.swift; sourceTree = "<group>"; };
@@ -463,7 +463,7 @@
 			isa = PBXGroup;
 			children = (
 				677E1BD324BF069500D917F2 /* BusinessDaysOperatorType.swift */,
-				6710592724C59C8D00791274 /* BussinesDaysFilterType.swift */,
+				6710592724C59C8D00791274 /* BusinessDaysFilterType.swift */,
 				6710592924C5A11900791274 /* MoonPhase.swift */,
 				67A2C59C24D40CF5005FEB6B /* AstronomyEventCodes.swift */,
 			);
@@ -1024,7 +1024,7 @@
 				676DF4C02474FE8100FDAFBF /* HolidaysService.swift in Sources */,
 				678D951E245AB257000C2DBA /* AstroDataAstronomy.swift in Sources */,
 				6710592E24C6C78100791274 /* BaseResponse.swift in Sources */,
-				6710592824C59C8D00791274 /* BussinesDaysFilterType.swift in Sources */,
+				6710592824C59C8D00791274 /* BusinessDaysFilterType.swift in Sources */,
 				676DF49D2473B7CE00FDAFBF /* DSTListService.swift in Sources */,
 				679F00C7244834D300035B79 /* HTTPTask.swift in Sources */,
 				678D9534245AB2E4000C2DBA /* Billing.swift in Sources */,

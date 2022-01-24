@@ -10,7 +10,7 @@ import Foundation
 
 /// Business Days Filter Type
 /// - SeeAlso: [Business Days Filter Type](https://services.timeanddate.com/api/doc/v3/type-filter.html)
-public enum BussinesDaysFilterType: String, CaseIterable {
+public enum BusinessDaysFilterType: String, CaseIterable {
 
     /// Include or exclude Mondays.
     case mon = "mon"

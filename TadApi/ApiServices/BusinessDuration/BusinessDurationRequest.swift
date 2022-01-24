@@ -46,7 +46,7 @@ public class BusinessDurationRequest: RequestObject {
 
     /// Choose a set of types or days you want to filter on.
     /// - SeeAlso: [Business Days Filter Type] (https://services.timeanddate.com/api/doc/v3/type-filter.html)
-    public var filter: [BussinesDaysFilterType] = [.weekendholidays]
+    public var filter: [BusinessDaysFilterType] = [.weekendholidays]
 
     /// Whether or not the last date (enddt) should be counted in the result.
     public var includelAStdate: Bool = false
