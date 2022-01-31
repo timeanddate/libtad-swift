@@ -28,7 +28,7 @@ public class PlacesService: BaseService {
      placesService.getPLacesInfo(request:placeRequest) { (result, error) in }
      ~~~
      */
-    public func getPlace(request: PlacesRequest, completionHandler:  @escaping(_ result: PlacesResponse?, _ error: ServiceErrors?) -> Void) {
+    public func getPlaces(request: PlacesRequest, completionHandler:  @escaping(_ result: PlacesResponse?, _ error: ServiceErrors?) -> Void) {
 
         if !keysReady() {
             return completionHandler(nil, .initError("Access Key and Secret Key required!"))

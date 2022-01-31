@@ -56,7 +56,7 @@ public class BusinessDateRequest: RequestObject {
 
     /// Choose a set of types or days you want to filter on.
     ///     - Default value: weekendholidays
-    public var filter: [BussinesDaysFilterType] = [.weekendholidays]
+    public var filter: [BusinessDaysFilterType] = [.weekendholidays]
 
     /// Set if the service should do an addition or subtraction of the specified days.
     ///     - Default value: add

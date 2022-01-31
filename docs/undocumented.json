@@ -1,299 +1,299 @@
 {
   "warnings": [
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Astronomy/Types/EventType.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Astronomy/Types/EventType.swift",
       "line": 11,
       "symbol": "EventType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/BaseResponse.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/BaseResponse.swift",
       "line": 11,
       "symbol": "BaseResponse",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/BaseService.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/BaseService.swift",
       "line": 11,
       "symbol": "BaseService",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/BusinessDuration/Models/BusinessDurationResponse.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/BusinessDuration/Models/BusinessDurationResponse.swift",
       "line": 10,
       "symbol": "BusinessDurationResponse",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Common/Models/LocationType.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Common/Models/LocationType.swift",
       "line": 33,
       "symbol": "LocationType.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Common/Models/Timechange.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Common/Models/Timechange.swift",
       "line": 52,
       "symbol": "Timechange.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/DSTList/Models/DstEntryType.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/DSTList/Models/DstEntryType.swift",
       "line": 35,
       "symbol": "DstEntryType.special",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Holidays/HolidaysRequest.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Holidays/HolidaysRequest.swift",
       "line": 39,
       "symbol": "HolidaysRequest.excludeTypes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Holidays/Types/HolidayTypes.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Holidays/Types/HolidayTypes.swift",
       "line": 105,
       "symbol": "HolidayTypes.debugDescriptions",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Holidays/Types/HolidayTypes.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Holidays/Types/HolidayTypes.swift",
       "line": 140,
       "symbol": "OptionSet.makeIterator()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/Holidays/Types/HolidayTypes.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/Holidays/Types/HolidayTypes.swift",
       "line": 145,
       "symbol": "OptionSetIterator",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/ApiServices/ResponseHelper.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/ApiServices/ResponseHelper.swift",
       "line": 11,
       "symbol": "ResponseHelper",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 12,
       "symbol": "ISO8601DateFormatter.init(_:timeZone:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 20,
       "symbol": "Date.iso8601withFractionalSeconds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 25,
       "symbol": "Formatter.iso8601withFractionalSeconds",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 36,
       "symbol": "JSONDecoder.DateDecodingStrategy.iso8601withFractionalSeconds",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 48,
       "symbol": "String.iso8601withFractionalSeconds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 71,
       "symbol": "Bool.intValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Extensions.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Extensions.swift",
       "line": 78,
       "symbol": "Optional.isNilOrEmpty",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Helpers/Crypto.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Helpers/Crypto.swift",
       "line": 12,
       "symbol": "CryptoAlgorithm",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Helpers/Crypto.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Helpers/Crypto.swift",
       "line": 44,
       "symbol": "String.hmac(_:key:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Encoding/JSONParameterEncoder.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Encoding/JSONParameterEncoder.swift",
       "line": 11,
       "symbol": "JSONParameterEncoder",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
       "line": 11,
       "symbol": "Parameters",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
       "line": 13,
       "symbol": "ParameterEncoder",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
       "line": 17,
       "symbol": "ParameterEncoding",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Encoding/ParameterEncoding.swift",
       "line": 35,
       "symbol": "NetworkError",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Encoding/URLParameterEncoding.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Encoding/URLParameterEncoding.swift",
       "line": 11,
       "symbol": "URLParameterEncoder",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/EndPoint/TadEndPoint.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/EndPoint/TadEndPoint.swift",
       "line": 11,
       "symbol": "NetworkEnvironment",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/EndPoint/TadEndPoint.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/EndPoint/TadEndPoint.swift",
       "line": 16,
       "symbol": "RequestObject",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/EndPoint/TadEndPoint.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/EndPoint/TadEndPoint.swift",
       "line": 20,
       "symbol": "TadApi",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Manager/NetworkManager.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Manager/NetworkManager.swift",
       "line": 11,
       "symbol": "NetworkResponse",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Manager/NetworkManager.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Manager/NetworkManager.swift",
       "line": 23,
       "symbol": "Result",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Manager/NetworkManager.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Manager/NetworkManager.swift",
       "line": 28,
       "symbol": "NetworkManager",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Manager/ServiceProtocol.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Manager/ServiceProtocol.swift",
       "line": 11,
       "symbol": "ServiceProtocol",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/EndPointType.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/EndPointType.swift",
       "line": 11,
       "symbol": "EndPointType",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/HTTPMethod.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/HTTPMethod.swift",
       "line": 11,
       "symbol": "HTTPMethod",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/HTTPTask.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/HTTPTask.swift",
       "line": 11,
       "symbol": "HTTPTask",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/NetworkLogger.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/NetworkLogger.swift",
       "line": 11,
       "symbol": "NetworkLogger",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/Router.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/Router.swift",
       "line": 11,
       "symbol": "NetworkRouterCompletion",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/Router.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/Router.swift",
       "line": 13,
       "symbol": "NetworkRouter",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Networking/Service/Router.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Networking/Service/Router.swift",
       "line": 19,
       "symbol": "Router",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/johnnye/sandbox/libtad-swift/TadApi/Utils/Constants.swift",
+      "file": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift/TadApi/Utils/Constants.swift",
       "line": 9,
       "symbol": "Constants",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/johnnye/sandbox/libtad-swift"
+  "source_directory": "/Users/zoltan/Work/TimeAndDate/TadApiGithub/Swift"
 }

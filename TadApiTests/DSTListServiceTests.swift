@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TadApi
+@testable import libtad
 
 class DSTListServiceTests: XCTestCase {
 

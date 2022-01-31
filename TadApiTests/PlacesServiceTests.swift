@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TadApi
+@testable import libtad
 
 class PlacesServiceTests: XCTestCase {
 
@@ -32,7 +32,7 @@ class PlacesServiceTests: XCTestCase {
         let aService = PlacesService(accessKey: accessKey, secretKey: secretKey)
 
         // when
-        aService.getPlace(request: request, completionHandler: {
+        aService.getPlaces(request: request, completionHandler: {
             (_, error) in
 
             XCTAssertTrue((error != nil), error.debugDescription)
@@ -55,7 +55,7 @@ class PlacesServiceTests: XCTestCase {
           let aService = PlacesService(accessKey: accessKey, secretKey: secretKey)
 
            // when
-           aService.getPlace(request: request, completionHandler: {
+           aService.getPlaces(request: request, completionHandler: {
                (_, error) in
 
                XCTAssertTrue((error != nil), error.debugDescription)
