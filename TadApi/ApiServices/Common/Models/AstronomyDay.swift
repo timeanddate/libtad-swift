@@ -8,7 +8,7 @@
 import Foundation
 
 /// Astronomy  Day
-/// - SeeAlso: [AstronomyDayType] (https://services.timeanddate.com/api/doc/v3/type-astronomyday.html)
+/// - SeeAlso: [AstronomyDayType] (https://dev.timeanddate.com/docs/type-astronomyday)
 public struct AstronomyDay: Codable {
 
     /// Date for the current information.

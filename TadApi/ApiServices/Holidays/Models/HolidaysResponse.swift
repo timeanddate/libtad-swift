@@ -8,7 +8,7 @@
 import Foundation
 
 /// HolidaysResponse
-/// - SeeAlso: [holidays – Retrieve List of Holidays] (https://services.timeanddate.com/api/doc/v3/srv-holidays.html)
+/// - SeeAlso: [holidays – Retrieve List of Holidays] (https://dev.timeanddate.com/docs/holidays/holidays-service)
 public class HolidaysResponse: BaseResponse {
 
     /// This element will contain a list of all holiday events within the requested year. If service was queried with calform=full it will also contain an element for every day of the year.

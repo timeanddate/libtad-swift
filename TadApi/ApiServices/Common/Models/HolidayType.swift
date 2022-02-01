@@ -8,7 +8,7 @@
 import Foundation
 
 /// HolidayType
-/// - SeeAlso:[HolidayType] (https://services.timeanddate.com/api/doc/v3/type-holiday.html)
+/// - SeeAlso:[HolidayType] (https://dev.timeanddate.com/docs/type-holiday)
 public struct HolidayType: Codable {
 
     /// Identifier for the holiday definition. Please note that this id is not unique, not even with a single year – the same holiday event may be returned multiple time because it is observed on a different day, or because it is scheduled in a different calendar (Hebrew or Muslim calendar) and happens multiple times within a Gregorian year. Use the uid field for purposes where you need a unique identifier.

@@ -10,7 +10,7 @@ import Foundation
 
 /// This is the request parameters for handling Astrodata Service API request
 /**
- For more information, see [astrodata – Calculate data on Astronomical Objects on Specific Times](http://services.timeanddate.com/api/doc/v3/srv-astrodata.html)
+ For more information, see [astrodata – Calculate data on Astronomical Objects on Specific Times](https://dev.timeanddate.com/docs/astro/)
  ````
  var astrodatRequest = AstrodataRequest()
  astrodatRequest.objects = "sun"
@@ -49,7 +49,7 @@ public class AstrodataRequest: RequestObject {
     ///       The preferred language for the texts. An error will be raised if the language code cannot be recognized. In case the text for a specific event cannot be retrieved in the requested language it will be returned in English instead. This is also the default language.
     ///        - NOTE:In case you have specific needs for a certain language/translation, please email api@timeanddate.com.
     ///        - NOTE:Due to technical limitations, time zone names cannot be translated at the moment.
-    ///        - Type: String/[IISO639 Language Code ](https://services.timeanddate.com/api/doc/current/type-isolang.html)
+    ///        - Type: String/[IISO639 Language Code ](https://dev.timeanddate.com/docs/type-iso#isoLang)
     ///        - Default value: en
     ///        - This parameter Optional!
 

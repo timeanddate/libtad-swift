@@ -9,7 +9,7 @@
 import Foundation
 
 /// DstEntrySpecialType
-/// - SeeAlso: [DstEntrySpecialType] (https://services.timeanddate.com/api/doc/v3/type-dstentryspecial.html)
+/// - SeeAlso: [DstEntrySpecialType] (https://dev.timeanddate.com/docs/type-dstentry)
 public struct DSTEntrySpecialType: Codable {
 
     /// Indicates if the region does not observe DST at all, or is on DST all year long.

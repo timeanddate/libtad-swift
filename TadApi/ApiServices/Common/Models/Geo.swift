@@ -9,7 +9,7 @@ import Foundation
 
 /// GeoType
 /// The geographical information type. Latitude and Longitude will only be contained in this object if requested (see the geo parameter of the relevant services). The name, state and country members are omitted if the location maps to an uninhabited area.
-///- SeeAlso: [GeoType] (https://services.timeanddate.com/api/doc/v3/type-geo.html)
+///- SeeAlso: [GeoType] (https://dev.timeanddate.com/docs/type-geo)
 public struct Geo: Codable {
 
     /// Country of the location.

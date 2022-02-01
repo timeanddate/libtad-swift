@@ -9,7 +9,7 @@
 import Foundation
 
 /// HolidaysRequest
-/// - SeeAlso: [holidays – Retrieve List of Holidays] (https://services.timeanddate.com/api/doc/v3/srv-holidays.html)
+/// - SeeAlso: [holidays – Retrieve List of Holidays] (https://dev.timeanddate.com/docs/holidays/holidays-service)
 ///
 ///~~~
 ///     holidayRequest = HolidaysRequest()

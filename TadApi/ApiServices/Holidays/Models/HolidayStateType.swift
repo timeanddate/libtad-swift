@@ -9,7 +9,7 @@
 import Foundation
 
 ///HolidayStateType
-/// - SeeAlso: [HolidayStateType] (https://services.timeanddate.com/api/doc/v3/type-holidaystate.html)
+/// - SeeAlso: [HolidayStateType] (https://dev.timeanddate.com/docs/type-holidaystate)
 public struct HolidayStateType: Codable {
 
     /// An ISO 3166-1 country or ISO 3166-2 country state code (see [ISO3166]).

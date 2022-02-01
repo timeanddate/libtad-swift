@@ -8,7 +8,7 @@
 import Foundation
 
 /// VerboseTimeChangeType
-/// - SeeAlso: [VerboseTimeChangeType] (https://services.timeanddate.com/api/doc/v3/type-verbosetimechange.html)
+/// - SeeAlso: [VerboseTimeChangeType] (https://dev.timeanddate.com/docs/type-verbosetimechange)
 public struct VerboseTimeChangeType: Codable {
 
     /// Local time after transition, split up into components.

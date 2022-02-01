@@ -10,7 +10,7 @@ import Foundation
 
 /// Service call for Places API
 /// The places service can be used to retrieve the list of supported places. The ids for the places are then used in the other services to indicate the location to be queried.
-/// - SeeAlso: [places – Retrieve List of Available Places] (https://services.timeanddate.com/api/doc/v3/srv-places.html)
+/// - SeeAlso: [places – Retrieve List of Available Places] (https://dev.timeanddate.com/docs/places-service)
 public class PlacesService: BaseService {
 
     /**

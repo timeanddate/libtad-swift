@@ -12,7 +12,7 @@ import Foundation
 /// The dstlist service can be used to obtain data about time zones for all supported countries in our database. This includes the start and end date of daylight savings time, and UTC offset for the time zones.
 ///
 /// The resulting data is aggregated on country and time zone level. By default, only information from countries which actually observe DST is returned without listing the individually affected locations – see the parameters listplaces and onlydst to change this behavior.
-/// - SeeAlso: [DSTListService] (https://services.timeanddate.com/api/doc/v3/srv-dstlist.html)
+/// - SeeAlso: [DSTListService] (https://dev.timeanddate.com/docs/time/dstlist)
 public class DSTListService: BaseService {
 
     /**

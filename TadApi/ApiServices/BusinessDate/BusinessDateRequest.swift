@@ -11,7 +11,7 @@ import Foundation
 /// businessdate – Calculate business date from a given number of days
 /// The businessdate service can be used to find a business date from a specified number of days.
 /// You can choose if you want to calculate the business date by adding (default) or subtracting the given days, and whether or not a specific filter should be applied to the result. By default the result will be filtered on excluding weekends and public holidays, but you can specify a custom filter to modify this.
-/// - SeeAlso: [businessdate API Reference] (https://services.timeanddate.com/api/doc/v3/srv-businessdate.html)
+/// - SeeAlso: [businessdate API Reference] (https://dev.timeanddate.com/docs/calculator/businessdate)
 ///
 /// - Example: 
 /// ````
@@ -69,7 +69,7 @@ public class BusinessDateRequest: RequestObject {
      The preferred language for the texts. An error will be raised if the language code cannot be recognized. In case the text for a specific event cannot be retrieved in the requested language it will be returned in English instead. This is also the default language.
      - NOTE:In case you have specific needs for a certain language/translation, please email api@timeanddate.com.
      - NOTE:Due to technical limitations, time zone names cannot be translated at the moment.
-     - Type: String/[IISO639 Language Code ](https://services.timeanddate.com/api/doc/current/type-isolang.html)
+     - Type: String/[IISO639 Language Code ](https://dev.timeanddate.com/docs/type-iso#isoLang)
      - Default value: en
      - This parameter is optional!
      */

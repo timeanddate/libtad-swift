@@ -128,10 +128,10 @@
                 <a href="Enums/AstronomyEventCodes.html">AstronomyEventCodes</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/BusinessDaysOperatorType.html">BusinessDaysOperatorType</a>
+                <a href="Enums/BusinessDaysFilterType.html">BusinessDaysFilterType</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/BussinesDaysFilterType.html">BussinesDaysFilterType</a>
+                <a href="Enums/BusinessDaysOperatorType.html">BusinessDaysOperatorType</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/EventClass.html">EventClass</a>
@@ -275,7 +275,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>For more information, see <a href="http://services.timeanddate.com/api/doc/v3/srv-astrodata.html">astrodata – Calculate data on Astronomical Objects on Specific Times</a></p>
+                        <p>For more information, see <a href="https://dev.timeanddate.com/docs/astro/">astrodata – Calculate data on Astronomical Objects on Specific Times</a></p>
 <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">astrodatRequest</span> <span class="o">=</span> <span class="kt">AstrodataRequest</span><span class="p">()</span>
 <span class="n">astrodatRequest</span><span class="o">.</span><span class="n">objects</span> <span class="o">=</span> <span class="s">"sun"</span>
 <span class="n">astrodatRequest</span><span class="o">.</span><span class="n">placeId</span> <span class="o">=</span> <span class="s">"norway/oslo"</span>
@@ -310,7 +310,7 @@
                       <div class="abstract">
                         
 <ul>
-<li>Service reference: <a href="https://services.timeanddate.com/api/doc/v3/srv-astrodata.html">Astrodata Service</a></li>
+<li>Service reference: <a href="https://dev.timeanddate.com/docs/astro/">Astrodata Service</a></li>
 </ul>
 
                         <a href="Classes/AstrodataService.html" class="slightly-smaller">See more</a>
@@ -368,7 +368,7 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>This is the request parameters for handling Astronomy Service API request
-For more information, see <a href="https://services.timeanddate.com/api/doc/current/srv-astronomy.html">astronomy – Get Information About Astronomical Objects</a></p>
+For more information, see <a href="https://dev.timeanddate.com/docs/astro/">astronomy – Get Information About Astronomical Objects</a></p>
 <pre class="highlight swift"><code>    <span class="k">var</span> <span class="nv">astronomyRequest</span> <span class="o">=</span> <span class="kt">AstronomyReques</span><span class="p">()</span>
     <span class="n">astronomyRequest</span><span class="o">.</span><span class="n">objects</span> <span class="o">=</span> <span class="s">"sun"</span>
     <span class="n">astronomyRequest</span><span class="o">.</span><span class="n">placeId</span> <span class="o">=</span> <span class="s">"norway/oslo"</span>
@@ -403,7 +403,7 @@ For more information, see <a href="https://services.timeanddate.com/api/doc/curr
                         <p>Service class for Astronomy APi Calls</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-astronomy.html">Astronomy Service</a>
+    <a href="https://dev.timeanddate.com/docs/astro/">Astronomy API</a>
 
 </div>
 
@@ -466,7 +466,7 @@ The businessdate service can be used to find a business date from a specified nu
 You can choose if you want to calculate the business date by adding (default) or subtracting the given days, and whether or not a specific filter should be applied to the result. By default the result will be filtered on excluding weekends and public holidays, but you can specify a custom filter to modify this.</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <p><a href="https://services.timeanddate.com/api/doc/v3/srv-businessdate.html">businessdate API Reference</a></p>
+    <p><a href="https://dev.timeanddate.com/docs/calculator/businessdate">businessdate API Reference</a></p>
 
 </div><ul>
 <li><p>Example: </p>
@@ -505,7 +505,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>Service class for Astronomy APi Calls</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-businessdate.html">Business Date Service</a>
+    <a href="https://dev.timeanddate.com/docs/calculator/businessdate">Business Date Service</a>
 
 </div>
 
@@ -600,7 +600,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>Service class for Busimess Duration Api calls</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-businessduration.html">Business Duration Service</a>
+    <a href="https://dev.timeanddate.com/docs/calculator/businessduration">Business Duration Service</a>
 
 </div>
 
@@ -635,7 +635,7 @@ You can choose if you want to calculate the business date by adding (default) or
  You have to specify a time stamp either in ISO8601 representation via the iso parameter, or you have to specify the individual components of the time stamp. Skipped components will not yield an error message, but use a default value instead (which corresponds to 01.01.2001, 00:00:00).</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-converttime.html">converttime</a>
+    <a href="https://dev.timeanddate.com/docs/time/converttime">converttime</a>
 
 </div>
 <pre class="highlight swift"><code>     <span class="k">var</span> <span class="nv">convertTimeRequest</span> <span class="o">=</span><span class="kt">ConvertTimeRequest</span><span class="p">()</span>
@@ -673,7 +673,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>Service class for Convert Time  API Calls</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-converttime.html">ConvertTimeService</a>
+    <a href="https://dev.timeanddate.com/docs/time/converttime">ConvertTimeService</a>
 
 </div>
 
@@ -706,7 +706,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>Convert Time Response</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-converttime.html">ConvertTime</a>
+    <a href="https://dev.timeanddate.com/docs/time/converttime">ConvertTime</a>
 
 </div>
 
@@ -739,7 +739,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>DST List Request</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-dstlist.html">dstlist – Retrieve Daylight Saving Time Information</a>
+    <a href="https://dev.timeanddate.com/docs/time/dstlist">dstlist – Retrieve Daylight Saving Time Information</a>
 
 </div>
 <pre class="highlight swift"><code>     <span class="k">var</span> <span class="nv">dstListRequest</span> <span class="o">=</span><span class="kt">DSTListRequest</span><span class="p">()</span>
@@ -778,7 +778,7 @@ You can choose if you want to calculate the business date by adding (default) or
 <p>The resulting data is aggregated on country and time zone level. By default, only information from countries which actually observe DST is returned without listing the individually affected locations – see the parameters listplaces and onlydst to change this behavior.</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-dstlist.html">DSTListService</a>
+    <a href="https://dev.timeanddate.com/docs/time/dstlist">DSTListService</a>
 
 </div>
 
@@ -811,7 +811,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>DST List Response Object</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-dstlist.html">dstlist – Retrieve Daylight Saving Time Information</a>
+    <a href="https://dev.timeanddate.com/docs/time/dstlist">dstlist – Retrieve Daylight Saving Time Information</a>
 
 </div>
 
@@ -844,7 +844,7 @@ You can choose if you want to calculate the business date by adding (default) or
                         <p>HolidaysRequest</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-holidays.html">holidays – Retrieve List of Holidays</a>
+    <a href="https://dev.timeanddate.com/docs/holidays/holidays-service">holidays – Retrieve List of Holidays</a>
 
 </div>
 <pre class="highlight swift"><code>     <span class="n">holidayRequest</span> <span class="o">=</span> <span class="kt">HolidaysRequest</span><span class="p">()</span>
@@ -890,7 +890,7 @@ The holidays service can be used to retrieve the list of holidays for a country.
 
 </div><div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-holidays.html">holidays – Retrieve List of Holidays</a>
+    <a href="https://dev.timeanddate.com/docs/holidays/holidays-service">holidays – Retrieve List of Holidays</a>
 
 </div>
 
@@ -923,7 +923,7 @@ The holidays service can be used to retrieve the list of holidays for a country.
                         <p>HolidaysResponse</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-holidays.html">holidays – Retrieve List of Holidays</a>
+    <a href="https://dev.timeanddate.com/docs/holidays/holidays-service">holidays – Retrieve List of Holidays</a>
 
 </div>
 
@@ -956,7 +956,7 @@ The holidays service can be used to retrieve the list of holidays for a country.
                         <p>PlacesResponse</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/type-dstentryspecial.html">DstEntrySpecialType</a>
+    <a href="https://dev.timeanddate.com/docs/type-dstentryspecial">DstEntrySpecialType</a>
 
 </div>
 
@@ -989,7 +989,7 @@ The holidays service can be used to retrieve the list of holidays for a country.
                         <p>Place Request</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-places.html">places</a>
+    <a href="https://dev.timeanddate.com/docs/places-service">places</a>
 
 </div>
 <pre class="highlight swift"><code>     <span class="k">var</span> <span class="nv">placeRequest</span> <span class="o">=</span> <span class="kt">PlacesRequest</span><span class="p">()</span>
@@ -1025,7 +1025,7 @@ The holidays service can be used to retrieve the list of holidays for a country.
 The places service can be used to retrieve the list of supported places. The ids for the places are then used in the other services to indicate the location to be queried.</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-places.html">places – Retrieve List of Available Places</a>
+    <a href="https://dev.timeanddate.com/docs/places-service">places – Retrieve List of Available Places</a>
 
 </div>
 
@@ -1058,7 +1058,7 @@ The places service can be used to retrieve the list of supported places. The ids
                         <p>Time Service Resőponse</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-timeservice.html">timeservice – Retrieve Current Time for Place</a>
+    <a href="https://dev.timeanddate.com/docs/time/timeservice">timeservice – Retrieve Current Time for Place</a>
 
 </div>
 
@@ -1091,7 +1091,7 @@ The places service can be used to retrieve the list of supported places. The ids
                         <p>Tie Service Request</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-timeservice.html">timeservice – Retrieve Current Time for Place</a>
+    <a href="https://dev.timeanddate.com/docs/time/timeservice">timeservice – Retrieve Current Time for Place</a>
 
 </div>
 <pre class="highlight swift"><code>     <span class="k">var</span> <span class="nv">timeRequest</span> <span class="o">=</span> <span class="kt">TimeRequest</span><span class="p">()</span>
@@ -1128,7 +1128,7 @@ The places service can be used to retrieve the list of supported places. The ids
 The timeservice service can be used to retrieve the current time in one or more places. Additionally, information about time zones and related changes and the time of sunrise and sunset can be queried.</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://services.timeanddate.com/api/doc/v3/srv-timeservice.html">timeservice – Retrieve Current Time for Place</a>
+    <a href="https://dev.timeanddate.com/docs/time/timeservice">timeservice – Retrieve Current Time for Place</a>
 
 </div>
 
@@ -1150,7 +1150,7 @@ The timeservice service can be used to retrieve the current time in one or more 
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://services.timeanddate.com" target="_blank" rel="external">Time and Date AS</a>. All rights reserved. (Last updated: 2021-12-02)</p>
+          <p>&copy; 2022 <a class="link" href="https://services.timeanddate.com" target="_blank" rel="external">Time and Date AS</a>. All rights reserved. (Last updated: 2022-02-01)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

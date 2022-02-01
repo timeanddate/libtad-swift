@@ -8,11 +8,11 @@
 import Foundation
 
 /// DstEntryType
-/// - SeeAlso: [DstEntryType] (https://services.timeanddate.com/api/doc/v3/type-dstentry.html)
+/// - SeeAlso: [DstEntryType] (https://dev.timeanddate.com/docs/type-dstentry)
 public struct DstEntryType: Codable {
 
     /// The geographical region where this information is valid. Contains country, a textual description of the region and the name of the biggest place.
-    /// - SeeAlso: [RegionType] (https://services.timeanddate.com/api/doc/v3/type-region.html)
+    /// - SeeAlso: [RegionType] (https://dev.timeanddate.com/docs/type-region)
     public let region: DSTListRegion?
 
     /// Information about the standard time zone. This element is always returned.

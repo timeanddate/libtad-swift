@@ -8,7 +8,7 @@
 import Foundation
 
 /// PlacesResponse
-/// - SeeAlso: [DstEntrySpecialType] (https://services.timeanddate.com/api/doc/v3/type-dstentryspecial.html)
+/// - SeeAlso: [DstEntrySpecialType] (https://dev.timeanddate.com/docs/type-dstentryspecial)
 public class PlacesResponse: BaseResponse {
 
     /// This element contains a list of all currently known places, their identifiers and their geographical location (if requested).

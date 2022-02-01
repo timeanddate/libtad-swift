@@ -45,7 +45,7 @@ public class BusinessDurationRequest: RequestObject {
     public var include: Bool = false
 
     /// Choose a set of types or days you want to filter on.
-    /// - SeeAlso: [Business Days Filter Type] (https://services.timeanddate.com/api/doc/v3/type-filter.html)
+    /// - SeeAlso: [Business Days Filter Type] (https://dev.timeanddate.com/docs/type-filter)
     public var filter: [BusinessDaysFilterType] = [.weekendholidays]
 
     /// Whether or not the last date (enddt) should be counted in the result.
@@ -55,7 +55,7 @@ public class BusinessDurationRequest: RequestObject {
      The preferred language for the texts. An error will be raised if the language code cannot be recognized. In case the text for a specific event cannot be retrieved in the requested language it will be returned in English instead. This is also the default language.
      - NOTE:In case you have specific needs for a certain language/translation, please email api@timeanddate.com.
      - NOTE:Due to technical limitations, time zone names cannot be translated at the moment.
-     - Type: String/[IISO639 Language Code ](https://services.timeanddate.com/api/doc/current/type-isolang.html)
+     - Type: String/[IISO639 Language Code ](https://dev.timeanddate.com/docs/type-iso#isoLang)
      - This parameter is Optional!
      */
     public var lang: String = Constants.DefaultLanguage

@@ -9,7 +9,7 @@
 import Foundation
 
 /// MoonPhase
-/// - SeeAlso:  [Moon Phase Type] (https://services.timeanddate.com/api/doc/v3/type-moonphase.html)
+/// - SeeAlso:  [Moon Phase Type] (https://dev.timeanddate.com/docs/type-moonphase)
 public enum MoonPhase: String, CaseIterable {
 
     /// New moon.

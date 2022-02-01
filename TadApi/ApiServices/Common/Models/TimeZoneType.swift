@@ -8,7 +8,7 @@
 import Foundation
 
 /// TimeZoneType
-/// - SeeAlso: [TimeZoneType] (https://services.timeanddate.com/api/doc/v3/type-timezone.html)
+/// - SeeAlso: [TimeZoneType] (https://dev.timeanddate.com/docs/type-timezone)
 public struct TimeZoneType: Codable {
 
     /// The time zone offset (from UTC) in string representation.

@@ -9,7 +9,7 @@
 import Foundation
 
 /// Tie Service Request
-/// - SeeAlso: [timeservice – Retrieve Current Time for Place] (https://services.timeanddate.com/api/doc/v3/srv-timeservice.html)
+/// - SeeAlso: [timeservice – Retrieve Current Time for Place] (https://dev.timeanddate.com/docs/time/timeservice)
 ///
 ///~~~
 ///     var timeRequest = TimeRequest()

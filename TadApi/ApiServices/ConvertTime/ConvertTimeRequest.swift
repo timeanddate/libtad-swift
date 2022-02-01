@@ -11,7 +11,7 @@ import Foundation
 /// converttime – Convert Time Between Time Zones
 /// The converttime service can be used to convert any time from UTC or any of the supported locations to any other of the supported locations.
 /// You have to specify a time stamp either in ISO8601 representation via the iso parameter, or you have to specify the individual components of the time stamp. Skipped components will not yield an error message, but use a default value instead (which corresponds to 01.01.2001, 00:00:00).
-/// - SeeAlso: [converttime](https://services.timeanddate.com/api/doc/v3/srv-converttime.html)
+/// - SeeAlso: [converttime](https://dev.timeanddate.com/docs/time/converttime)
 ///
 ///~~~
 ///     var convertTimeRequest =ConvertTimeRequest()

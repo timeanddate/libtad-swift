@@ -9,7 +9,7 @@ import Foundation
 
 /// AstronomyObjectType
 /// - Note: For locations north of the arctic circle, or south of the antarctic circle, the assumptions that there is exactly one sunrise and one sunset event per day, or that the sun will rise before it sets, are not true! Depending on the date, there may be two sunset events on the same day, or the sun first sets and rises shortly after. For an example, see the sunrise and sunset times for Svalbard during the month of August.
-/// - SeeAlso: [AstronomyObjectType] (https://services.timeanddate.com/api/doc/v3/type-astronomyobject.html)
+/// - SeeAlso: [AstronomyObjectType] (https://dev.timeanddate.com/docs/type-astronomyobject)
 public struct AstronomyObjectType: Codable {
 
     /// Lists all sunrise/sunset events during the day.

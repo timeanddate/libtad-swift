@@ -8,7 +8,7 @@
 import Foundation
 
 /// DSTListLocation
-/// - SeeAlso: [LocationRefType] (https://services.timeanddate.com/api/doc/v3/type-locationref.html)
+/// - SeeAlso: [LocationRefType] (https://dev.timeanddate.com/docs/type-locationref)
 public struct DSTListLocation: Codable {
 
         /// The id of the location.

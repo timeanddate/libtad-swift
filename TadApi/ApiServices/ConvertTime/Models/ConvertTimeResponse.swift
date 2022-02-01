@@ -8,11 +8,11 @@
 import Foundation
 
 /// Convert Time Response
-/// - SeeAlso: [ConvertTime] (https://services.timeanddate.com/api/doc/v3/srv-converttime.html)
+/// - SeeAlso: [ConvertTime] (https://dev.timeanddate.com/docs/time/converttime)
 public class ConvertTimeResponse: BaseResponse {
 
     /// This element contains the time information for the locations in the request. For the XML format, it will be repeated multiple times, while for JSON, it is modeled as an array of objects with the same content.
-    /// - SeeAlso: [LocationType] (https://services.timeanddate.com/api/doc/v3/type-location.html)
+    /// - SeeAlso: [LocationType] (https://dev.timeanddate.com/docs/type-location)
     public let locations: [LocationType]?
 
     /// UTC time stamp of requested time.

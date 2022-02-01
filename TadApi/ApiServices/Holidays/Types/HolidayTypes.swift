@@ -9,7 +9,7 @@
 import Foundation
 
 ///Holday Types
-/// - SeeAlso: [Holiday Types](https://services.timeanddate.com/api/doc/v3/type-holidaytype.html)
+/// - SeeAlso: [Holiday Types](https://dev.timeanddate.com/docs/type-holiday)
 public struct HolidayTypes: OptionSet, Sequence {
 
     public init(rawValue: Int) {

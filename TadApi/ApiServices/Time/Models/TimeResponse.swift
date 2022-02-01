@@ -8,7 +8,7 @@
 import Foundation
 
 /// Time Service Resőponse
-/// - SeeAlso: [timeservice – Retrieve Current Time for Place] (https://services.timeanddate.com/api/doc/v3/srv-timeservice.html)
+/// - SeeAlso: [timeservice – Retrieve Current Time for Place] (https://dev.timeanddate.com/docs/time/timeservice)
 public class TimeResponse: BaseResponse {
 
         /// This element contains the response data. Iit is modeled as an array of objects with the same content.

@@ -8,7 +8,7 @@
 import Foundation
 
 /// AstronomyObjectDetailsType
-/// - SeeAlso: [Astronomy Object Details Type](https://services.timeanddate.com/api/doc/v3/type-astronomyobjectdet.html)
+/// - SeeAlso: [Astronomy Object Details Type](https://dev.timeanddate.com/docs/type-astronomydet)
 public struct AstronomyObjectDetailsType: Codable {
 
     /// The current data for the object. Only if requested. (Astronomy)
