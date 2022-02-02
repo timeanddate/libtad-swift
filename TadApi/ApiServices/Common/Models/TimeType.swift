@@ -8,7 +8,7 @@
 import Foundation
 
 /// TimeType
-/// - SeeAlso: [TimeType] (https://services.timeanddate.com/api/doc/v3/type-time.html)
+/// - SeeAlso: [TimeType] (https://dev.timeanddate.com/docs/type-time)
 public struct TimeType: Codable {
 
     /// Date and time, split up into components. The element is only present, if the verbosetime parameter is set to 1.

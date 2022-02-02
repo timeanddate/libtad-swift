@@ -8,7 +8,7 @@
 import Foundation
 
 /// WeekdaysType
-/// - SeeAlso:  [WeekdaysType] (https://services.timeanddate.com/api/doc/v3/type-weekdays.html)
+/// - SeeAlso:  [WeekdaysType] (https://dev.timeanddate.com/docs/type-weekdays)
 public struct WeekdaysType: Codable {
 
     /// How many days in total have been counted.

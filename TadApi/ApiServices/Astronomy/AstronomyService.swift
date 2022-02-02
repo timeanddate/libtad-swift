@@ -8,7 +8,7 @@
 
 import Foundation
 /// Service class for Astronomy APi Calls
-/// - SeeAlso: [Astronomy Service] (https://services.timeanddate.com/api/doc/v3/srv-astronomy.html)
+/// - SeeAlso: [Astronomy API] (https://dev.timeanddate.com/docs/astro/)
 public class AstronomyService: BaseService {
 
     /**

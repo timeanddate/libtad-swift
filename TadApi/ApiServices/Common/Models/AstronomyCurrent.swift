@@ -8,7 +8,7 @@
 import Foundation
 
 /// Astronomy Data Current
-/// - SeeAlso: [AstronomyCurrentType] (https://services.timeanddate.com/api/doc/v3/type-astronomycurrent.html)
+/// - SeeAlso: [AstronomyCurrentType] (https://dev.timeanddate.com/docs/type-astronomycurrent)
 public struct AstronomyCurrent: Codable {
 
     /// Local time stamp for the data in ISO 8601 format (including UTC offset).
@@ -22,7 +22,7 @@ public struct AstronomyCurrent: Codable {
     public let utctime: Date?
 
     /// Altitude of the center of the queried astronomical object above an ideal horizon.
-    ///     - Type: Integer
+    ///     - Type: Integer”
     public let altitude: Float
 
     /// Horizontal direction of the astronomical object at set/rise time (referring to true north). North is 0 degrees, east is 90 degrees, south is 180 degrees and west is 270 degrees.
@@ -38,7 +38,7 @@ public struct AstronomyCurrent: Codable {
     public let posangle: Float?
 
     /// The current phase of the moon. Only available for the moon object.
-    ///     - SeeAlso:: [Moon Phase] (https://services.timeanddate.com/api/doc/v3/type-moonphase.html)
+    ///     - SeeAlso:: [Moon Phase] (https://dev.timeanddate.com/docs/type-moonphase)
     public let moonphase: MoonPhase.RawValue
 
     /// :nodoc:

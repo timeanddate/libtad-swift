@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// - SeeAlso: [PeriodType] (https://services.timeanddate.com/api/doc/v3/type-period.html)
+/// - SeeAlso: [PeriodType] (https://dev.timeanddate.com/docs/type-period)
 public struct Period: Codable {
 
     /// Number of days calculated.
@@ -20,19 +20,19 @@ public struct Period: Codable {
     public let skippeddays: Int!
 
     /// The date the calculation started from.
-    /// - SeeAlso: [TimeType] (https://services.timeanddate.com/api/doc/v3/type-time.html)
+    /// - SeeAlso: [TimeType] (https://dev.timeanddate.com/docs/type-time)
     public let startdate: TimeType!
 
     /// The date the calculation ended on.
-    /// - SeeAlso: [TimeType] (https://services.timeanddate.com/api/doc/v3/type-time.html)
+    /// - SeeAlso: [TimeType] (https://dev.timeanddate.com/docs/type-time)
     public let enddate: TimeType!
 
     /// Holidays which occur in the requested period.
-    /// - SeeAlso: [BusinessHolidayType] (https://services.timeanddate.com/api/doc/v3/type-businessholiday.html)
+    /// - SeeAlso: [BusinessHolidayType] (https://dev.timeanddate.com/docs/type-businessholiday)
     public let holidays: BusinessHolidayType?
 
     /// The spread of excluded or included weekdays in includeddays.
-    /// - SeeAlso: [WeekdaysType] (https://services.timeanddate.com/api/doc/v3/type-weekdays.html)
+    /// - SeeAlso: [WeekdaysType] (https://dev.timeanddate.com/docs/type-weekdays)
     public let weekdays: WeekdaysType!
 
     /// :nodoc:

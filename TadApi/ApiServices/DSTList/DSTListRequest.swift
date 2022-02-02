@@ -9,7 +9,7 @@
 import Foundation
 
 /// DST List Request
-/// - SeeAlso: [dstlist – Retrieve Daylight Saving Time Information] (https://services.timeanddate.com/api/doc/v3/srv-dstlist.html)
+/// - SeeAlso: [dstlist – Retrieve Daylight Saving Time Information] (https://dev.timeanddate.com/docs/time/dstlist)
 ///
 ///~~~
 ///     var dstListRequest =DSTListRequest()

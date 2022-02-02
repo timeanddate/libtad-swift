@@ -8,7 +8,7 @@
 import Foundation
 
 /// BusinessHolidayType
-/// - SeeAlso: [BusinessHolidayType] (https://services.timeanddate.com/api/doc/v3/type-businessholiday.html)
+/// - SeeAlso: [BusinessHolidayType] (https://dev.timeanddate.com/docs/type-businessholiday)
 public struct BusinessHolidayType: Codable {
 
     /// The number of holidays in the results.

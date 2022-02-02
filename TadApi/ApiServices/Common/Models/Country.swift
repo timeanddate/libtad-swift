@@ -8,7 +8,7 @@
 import Foundation
 
 /// Country
-/// - SeeAlso: [CountryType] (https://services.timeanddate.com/api/doc/v3/type-country.html)
+/// - SeeAlso: [CountryType] (https://dev.timeanddate.com/docs/type-country)
 public struct Country: Codable {
 
     /// The ISO 3166-1-alpha-2 country code (see [ISO3166]).

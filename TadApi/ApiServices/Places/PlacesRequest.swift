@@ -9,7 +9,7 @@
 import Foundation
 
 /// Place Request
-/// - SeeAlso: [places] (https://services.timeanddate.com/api/doc/v3/srv-places.html)
+/// - SeeAlso: [places] (https://dev.timeanddate.com/docs/places-service)
 ///
 ///~~~
 ///     var placeRequest = PlacesRequest()

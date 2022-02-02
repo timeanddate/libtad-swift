@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// - SeeAlso: [LocationAstroType] (https://services.timeanddate.com/api/doc/v3/type-locationastro.html)
+/// - SeeAlso: [LocationAstroType] (https://dev.timeanddate.com/docs/type-locationastro)
 public struct LocationAstroType: Codable {
 
     /// Requested astronomical information.

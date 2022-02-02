@@ -9,7 +9,7 @@
 import Foundation
 
 /// Service class for Busimess Duration Api calls
-/// - SeeAlso: [Business Duration Service] (https://services.timeanddate.com/api/doc/v3/srv-businessduration.html)
+/// - SeeAlso: [Business Duration Service] (https://dev.timeanddate.com/docs/calculator/businessduration)
 public class BusinessDurationService: BaseService {
 
     /**

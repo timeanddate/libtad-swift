@@ -8,7 +8,7 @@
 import Foundation
 
 /// AstronomyEventType
-/// - SeeAlso:  [AstronomyEventType] (https://services.timeanddate.com/api/doc/v3/type-astronomyevent.html)
+/// - SeeAlso:  [AstronomyEventType] (https://dev.timeanddate.com/docs/type-astronomyevent)
 public struct AstronomyEventType: Codable {
 
     /// Hour at which the event is happening (local time).

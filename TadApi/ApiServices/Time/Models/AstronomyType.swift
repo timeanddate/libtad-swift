@@ -8,7 +8,7 @@
 import Foundation
 
 /// AstronomyType
-/// - SeeAlso: [AstronomyType] (https://services.timeanddate.com/api/doc/v3/type-astronomy.html)
+/// - SeeAlso: [AstronomyType] (https://dev.timeanddate.com/docs/type-astronomy)
 public struct AstronomyType: Codable {
 
     ///  Type: Array of AstronomyObjectType

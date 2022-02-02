@@ -8,7 +8,7 @@
 import Foundation
 
 /// DSTListRegion
-/// - SeeAlso: [RegionType] (https://services.timeanddate.com/api/doc/v3/type-region.html)
+/// - SeeAlso: [RegionType] (https://dev.timeanddate.com/docs/type-region)
 public struct DSTListRegion: Codable {
 
     /// Name of the biggest city within the region

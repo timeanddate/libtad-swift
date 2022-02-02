@@ -12,7 +12,7 @@ import Foundation
 /// The holidays service can be used to retrieve the list of holidays for a country.
 /// - Note:Some countries (e.g. China and Russia) occasionally declare working days as non-working days to form longer periods of consecutive non-working days. In exchange, weekend days become normal working days. Those days are indicated with the holiday type weekend. Please see also the discussion of the holiday types.
 /// - Note:At least request version 2 shall be used for the holiday service. Request version 1 contains a problem for holidays with time stamps (affects e.g. time zone events and seasons): data has no time zone information attached but is output with inconsistent time zone.
-/// - SeeAlso: [holidays – Retrieve List of Holidays] (https://services.timeanddate.com/api/doc/v3/srv-holidays.html)
+/// - SeeAlso: [holidays – Retrieve List of Holidays] (https://dev.timeanddate.com/docs/holidays/holidays-service)
 public class HolidaysService: BaseService {
 
     /**

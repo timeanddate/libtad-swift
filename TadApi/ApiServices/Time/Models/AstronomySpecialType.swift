@@ -9,7 +9,7 @@
 import Foundation
 
 /// AstronomySpecialType
-/// - SeeAlso: [AstronomySpecialType] (https://services.timeanddate.com/api/doc/v3/type-astronomy.html)
+/// - SeeAlso: [AstronomySpecialType] (https://dev.timeanddate.com/docs/type-astronomyspecial)
 public struct AstronomySpecialType: Codable {
 
     /// Indicates if the sun is up or down all day.

@@ -9,7 +9,7 @@
 import Foundation
 
 /// Astronomy Event Codes
-/// - SeeAlso: [Astronomy Event Codes](https://services.timeanddate.com/api/doc/v3/type-astroeventcode.html)
+/// - SeeAlso: [Astronomy Event Codes](https://dev.timeanddate.com/docs/type-astroeventcode)
 public enum AstronomyEventCodes: String, CaseIterable {
     /// Astronomical twilight (-18°) start.
     case twi18_start = "twi18_start"

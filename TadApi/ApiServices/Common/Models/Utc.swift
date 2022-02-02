@@ -8,12 +8,12 @@
 import Foundation
 
 /// UtcType
-/// - SeeAlso: [UtcType] (https://services.timeanddate.com/api/doc/v3/type-utc.html)
+/// - SeeAlso: [UtcType] (https://dev.timeanddate.com/docs/type-utc)
 public struct Utc: Codable {
 
     /// UTC time stamp in ISO8601 format, and (if requested) split into components.
     ///
-    /// - SeeAlso: [TimeType] (https://services.timeanddate.com/api/doc/v3/type-time.html)
+    /// - SeeAlso: [TimeType] (https://dev.timeanddate.com/docs/type-time)
     public let time: TimeType?
 
     /// :nodoc:

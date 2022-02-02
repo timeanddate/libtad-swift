@@ -8,7 +8,7 @@
 import Foundation
 
 /// LocationType
-/// - SeeAlso:  [LocationType] (https://services.timeanddate.com/api/doc/v3/type-location.html)
+/// - SeeAlso:  [LocationType] (https://dev.timeanddate.com/docs/type-location)
 ///
 public struct LocationType: Codable {
 

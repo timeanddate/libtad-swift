@@ -10,7 +10,7 @@ import Foundation
 /// Astronomy Data Astronomy
 public struct AstronomyDataAstronomy: Codable {
 
-    /// Type: Array of [AstronomyObjectDetailsType](https://services.timeanddate.com/api/doc/v3/type-astronomyobjectdet.html)
+    /// Type: Array of [AstronomyObjectDetailsType](https://dev.timeanddate.com/docs/astro/astrodata)
     public let objects: [AstronomyObjectDetailsType]?
 
     /// :nodoc:

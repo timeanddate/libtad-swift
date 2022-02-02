@@ -9,7 +9,7 @@
 import Foundation
 
 ///Service class for Convert Time  API Calls
-/// - SeeAlso: [ConvertTimeService] (https://services.timeanddate.com/api/doc/v3/srv-converttime.html)
+/// - SeeAlso: [ConvertTimeService] (https://dev.timeanddate.com/docs/time/converttime)
 public class ConvertTimeService: BaseService {
 
     /**

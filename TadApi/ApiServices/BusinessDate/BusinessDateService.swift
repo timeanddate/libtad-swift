@@ -10,7 +10,7 @@ import Foundation
 
 /// Service class for Astronomy APi Calls
 ///
-/// - SeeAlso: [Business Date Service] (https://services.timeanddate.com/api/doc/v3/srv-businessdate.html)
+/// - SeeAlso: [Business Date Service] (https://dev.timeanddate.com/docs/calculator/businessdate)
 ///
 public class BusinessDateService: BaseService {
 

@@ -16,8 +16,8 @@ public class BaseService {
 
     ///Astronomy Service initialization
     /// - Parameters:
-    ///    - acesskey: [API Access Control] (https://services.timeanddate.com/api/doc/v3/chap-access.html)
-    ///    - secretKey: [API Access Control] (https://services.timeanddate.com/api/doc/v3/chap-access.html)
+    ///    - acesskey: [API Access Control] (https://dev.timeanddate.com/docs/authentication)
+    ///    - secretKey: [API Access Control] (https://dev.timeanddate.com/docs/authentication)
     public init(accessKey: String!, secretKey: String!) {
         self.accessKey = accessKey
         self.secretKey = secretKey

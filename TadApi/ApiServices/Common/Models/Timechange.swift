@@ -8,7 +8,7 @@
 import Foundation
 
 /// Timechange
-/// - SeeAlso: [TimeChange] (https://services.timeanddate.com/api/doc/v3/type-timechange.html)
+/// - SeeAlso: [TimeChange] (https://dev.timeanddate.com/docs/type-timechange)
 public struct Timechange: Codable {
 
     /// New DST offset in seconds. Value will be null/empty if there is no DST for this location.

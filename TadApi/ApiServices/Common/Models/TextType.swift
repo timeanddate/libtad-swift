@@ -8,7 +8,7 @@
 import Foundation
 
 /// TextType
-/// - SeeAlso: [Text] (https://services.timeanddate.com/api/doc/v3/type-text.html)
+/// - SeeAlso: [Text] (https://dev.timeanddate.com/docs/type-text)
 public struct TextType: Codable {
 
     /// ISO 639 ([ISO639])language code for this text.

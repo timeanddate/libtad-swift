@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// - SeeAlso: [AstronomyDetailsType] (https://services.timeanddate.com/api/doc/v3/type-astronomydet.html)
+/// - SeeAlso: [AstronomyDetailsType] (https://dev.timeanddate.com/docs/astro/astronomy)
 struct AstroDataAstronomy: Codable {
 
         /// Type: Array of AstronomyObjectDetailsType

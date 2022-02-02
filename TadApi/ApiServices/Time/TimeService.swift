@@ -10,7 +10,7 @@ import Foundation
 
 /// Service call for TimeServce API
 /// The timeservice service can be used to retrieve the current time in one or more places. Additionally, information about time zones and related changes and the time of sunrise and sunset can be queried.
-/// - SeeAlso: [timeservice – Retrieve Current Time for Place] (https://services.timeanddate.com/api/doc/v3/srv-timeservice.html)
+/// - SeeAlso: [timeservice – Retrieve Current Time for Place] (https://dev.timeanddate.com/docs/time/timeservice)
 public class TimeService: BaseService {
 
     /**

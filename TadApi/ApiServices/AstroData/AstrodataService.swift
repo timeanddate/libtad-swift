@@ -10,7 +10,7 @@ import Foundation
 
 /// Service class for Astrodata APi Calls
 /**
- - Service reference: [Astrodata Service] (https://services.timeanddate.com/api/doc/v3/srv-astrodata.html)
+ - Service reference: [Astrodata Service] (https://dev.timeanddate.com/docs/astro/)
  */
 public class AstrodataService: BaseService {
 
