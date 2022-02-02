@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6706465627AA7227004F5235 /* AccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706465527AA7227004F5235 /* AccountResponse.swift */; };
+		6706465827AA72A1004F5235 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706465727AA72A1004F5235 /* AccountService.swift */; };
+		6706465A27AA7344004F5235 /* AccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706465927AA7344004F5235 /* AccountRequest.swift */; };
+		6706465C27AA7D30004F5235 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706465B27AA7D30004F5235 /* Account.swift */; };
+		6706465E27AA7E4C004F5235 /* PackageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706465D27AA7E4C004F5235 /* PackageType.swift */; };
+		6706466127AA8D45004F5235 /* IsoDateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706466027AA8D45004F5235 /* IsoDateType.swift */; };
+		6706466427AA901E004F5235 /* AccountServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706466227AA8F94004F5235 /* AccountServiceTests.swift */; };
 		67094709246296D5004C1473 /* BusinessDateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67094708246296D4004C1473 /* BusinessDateRequest.swift */; };
 		670947162463C4E5004C1473 /* WeekdaysType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709470A2463C4E5004C1473 /* WeekdaysType.swift */; };
 		670947172463C4E5004C1473 /* TextType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709470B2463C4E5004C1473 /* TextType.swift */; };
@@ -199,6 +206,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6706465527AA7227004F5235 /* AccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountResponse.swift; sourceTree = "<group>"; };
+		6706465727AA72A1004F5235 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		6706465927AA7344004F5235 /* AccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRequest.swift; sourceTree = "<group>"; };
+		6706465B27AA7D30004F5235 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		6706465D27AA7E4C004F5235 /* PackageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageType.swift; sourceTree = "<group>"; };
+		6706466027AA8D45004F5235 /* IsoDateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoDateType.swift; sourceTree = "<group>"; };
+		6706466227AA8F94004F5235 /* AccountServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountServiceTests.swift; sourceTree = "<group>"; };
 		67094708246296D4004C1473 /* BusinessDateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDateRequest.swift; sourceTree = "<group>"; };
 		6709470A2463C4E5004C1473 /* WeekdaysType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysType.swift; sourceTree = "<group>"; };
 		6709470B2463C4E5004C1473 /* TextType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextType.swift; sourceTree = "<group>"; };
@@ -336,6 +350,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6706465327AA70E7004F5235 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				6706465427AA71F9004F5235 /* Models */,
+				6706465727AA72A1004F5235 /* AccountService.swift */,
+				6706465927AA7344004F5235 /* AccountRequest.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		6706465427AA71F9004F5235 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6706465D27AA7E4C004F5235 /* PackageType.swift */,
+				6706465527AA7227004F5235 /* AccountResponse.swift */,
+				6706465B27AA7D30004F5235 /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		67094726246926C6004C1473 /* BusinessDuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +431,7 @@
 		67593DFB24498E7600FE8D71 /* TadApiTests */ = {
 			isa = PBXGroup;
 			children = (
+				6706466227AA8F94004F5235 /* AccountServiceTests.swift */,
 				67593DE524498DAC00FE8D71 /* AstronomyServiceTests.swift */,
 				678D953C245AC803000C2DBA /* AstroDataServiceTests.swift */,
 				670947242463D9CF004C1473 /* BusinessDateTests.swift */,
@@ -529,6 +564,7 @@
 				67094745246BB45C004C1473 /* Utc.swift */,
 				67094763246BC4F3004C1473 /* Timechange.swift */,
 				6709470A2463C4E5004C1473 /* WeekdaysType.swift */,
+				6706466027AA8D45004F5235 /* IsoDateType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -648,6 +684,7 @@
 		679F00B2244834D300035B79 /* ApiServices */ = {
 			isa = PBXGroup;
 			children = (
+				6706465327AA70E7004F5235 /* Account */,
 				679F00B3244834D300035B79 /* Astronomy */,
 				678D950E24581E09000C2DBA /* AstroData */,
 				678D953E245AFC70000C2DBA /* BusinessDate */,
@@ -889,6 +926,7 @@
 				678D953D245AC803000C2DBA /* AstroDataServiceTests.swift in Sources */,
 				67094759246BBEBF004C1473 /* ConvertTimeServiceTests.swift in Sources */,
 				6788BDAA248E099E000C4A7B /* HolidaysServiceTests.swift in Sources */,
+				6706466427AA901E004F5235 /* AccountServiceTests.swift in Sources */,
 				6788BDAC248E0B78000C4A7B /* PlacesServiceTests.swift in Sources */,
 				670947252463D9CF004C1473 /* BusinessDateTests.swift in Sources */,
 			);
@@ -983,6 +1021,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6706465A27AA7344004F5235 /* AccountRequest.swift in Sources */,
 				6788BDA6248A7316000C4A7B /* BusinessHolidayType.swift in Sources */,
 				679F00CE244834D300035B79 /* JSONParameterEncoder.swift in Sources */,
 				678D9536245AB2E4000C2DBA /* Country.swift in Sources */,
@@ -999,6 +1038,7 @@
 				670947162463C4E5004C1473 /* WeekdaysType.swift in Sources */,
 				676DF4CA2475004800FDAFBF /* PlaceType.swift in Sources */,
 				67094709246296D5004C1473 /* BusinessDateRequest.swift in Sources */,
+				6706465C27AA7D30004F5235 /* Account.swift in Sources */,
 				6709473D2469383E004C1473 /* BusinessDurationService.swift in Sources */,
 				6709476C246BC4F3004C1473 /* VerboseTimeChangeType.swift in Sources */,
 				67A2C59F24D7D39D005FEB6B /* Extensions.swift in Sources */,
@@ -1007,6 +1047,7 @@
 				6709472824692705004C1473 /* BusinessDurationRequest.swift in Sources */,
 				679F00E6244834D300035B79 /* Crypto.swift in Sources */,
 				6709474D246BB45D004C1473 /* TimeType.swift in Sources */,
+				6706465E27AA7E4C004F5235 /* PackageType.swift in Sources */,
 				676DF4B72474F99D00FDAFBF /* HolidaysResponse.swift in Sources */,
 				678D950B2456F092000C2DBA /* AstronomyRequest.swift in Sources */,
 				676DF4CB2475004800FDAFBF /* PlacesResponse.swift in Sources */,
@@ -1028,6 +1069,7 @@
 				676DF49D2473B7CE00FDAFBF /* DSTListService.swift in Sources */,
 				679F00C7244834D300035B79 /* HTTPTask.swift in Sources */,
 				678D9534245AB2E4000C2DBA /* Billing.swift in Sources */,
+				6706465627AA7227004F5235 /* AccountResponse.swift in Sources */,
 				679F00E5244834D300035B79 /* ServiceErrors.swift in Sources */,
 				679F00DC244834D300035B79 /* EventType.swift in Sources */,
 				67094757246BBE06004C1473 /* ConvertTimeService.swift in Sources */,
@@ -1061,6 +1103,8 @@
 				6709474F246BB45D004C1473 /* ConvertTimeResponse.swift in Sources */,
 				679F00CD244834D300035B79 /* URLParameterEncoding.swift in Sources */,
 				678D951224581F4C000C2DBA /* AstrodataService.swift in Sources */,
+				6706465827AA72A1004F5235 /* AccountService.swift in Sources */,
+				6706466127AA8D45004F5235 /* IsoDateType.swift in Sources */,
 				677E1BD424BF069500D917F2 /* BusinessDaysOperatorType.swift in Sources */,
 				678D951024581E35000C2DBA /* AstrodataRequest.swift in Sources */,
 				670947232463D1FB004C1473 /* BusinessDateService.swift in Sources */,

@@ -232,6 +232,16 @@ public class TadApi: EndPointType {
 
             return HTTPTask.requestParameters(accessKey: accesskey, secretKey: secretkey, urlParameters: urlParameters, encoding: .urlEncoding)
         }
+        
+        func accountDataBuilder(accessKey: String, secretKey: String, request: AccountRequest) -> HTTPTask {
+        
+            var urlParameters: Parameters = Parameters()
+            urlParameters["accesskey"] = accessKey
+            urlParameters["version"] = Constants.DefaultVersion
+
+            return HTTPTask.requestParameters(accessKey: accesskey, secretKey: secretkey, urlParameters: urlParameters, encoding: .urlEncoding)
+        
+        }
 
         switch request {
         case is AstronomyRequest:
@@ -261,6 +271,9 @@ public class TadApi: EndPointType {
         case is TimeRequest:
             _path = "timeservice"
             _task = TimeRequest(accessKey: accesskey, secretKey: secretkey, request: request as! TimeRequest)
+        case is AccountRequest:
+            _path = "account"
+            _task = accountDataBuilder(accessKey: accesskey, secretKey: secretkey, request: request as! AccountRequest)
         default:
             abort()
         }
