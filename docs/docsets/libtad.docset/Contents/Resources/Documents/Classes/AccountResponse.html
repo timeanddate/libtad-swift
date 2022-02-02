@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DSTListLocation Structure Reference</title>
+    <title>AccountResponse Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/DSTListLocation" class="dashAnchor"></a>
-    <a title="DSTListLocation Structure Reference"></a>
+    <a name="//apple_ref/swift/Class/AccountResponse" class="dashAnchor"></a>
+    <a title="AccountResponse Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">libtad 1.0.0 Docs</a> (89% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">libtad Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DSTListLocation Structure Reference
+        AccountResponse Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -270,19 +270,15 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DSTListLocation</h1>
+            <h1>AccountResponse</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DSTListLocation</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">AccountResponse</span> <span class="p">:</span> <span class="kt">BaseResponse</span></code></pre>
 
                 </div>
               </div>
-            <p>DSTListLocation</p>
-<div class="aside aside-see-also">
-    <p class="aside-title">See also</p>
-    <a href="https://dev.timeanddate.com/docs/type-locationref">LocationRefType</a>
-
-</div>
+            <p>Account service
+[Account Service](<a href="https://dev.timeanddate.com/docs/account-service">https://dev.timeanddate.com/docs/account-service</a></p>
 
           </section>
           <section class="section task-group-section">
@@ -291,9 +287,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6libtad15DSTListLocationV2idSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV2idSSSgvp">id</a>
+                    <a name="/s:6libtad15AccountResponseC7accountAA0B0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/account" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6libtad15AccountResponseC7accountAA0B0VSgvp">account</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -301,68 +297,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The id of the location.</p>
+                        <p>The account service can be used to query for which licenses you currently have access to, and the number of credits available on your profile.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6libtad15DSTListLocationV4nameSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV4nameSSSgvp">name</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The name of the location</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6libtad15DSTListLocationV5stateSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV5stateSSSgvp">state</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The state of the location within the country (only if applicable).</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">account</span><span class="p">:</span> <span class="kt">Account</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>

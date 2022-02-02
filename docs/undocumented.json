@@ -1,6 +1,20 @@
 {
   "warnings": [
     {
+      "file": "/Users/zoltan/Work/TimeAndDate/swift/libtad/TadApi/ApiServices/Account/AccountService.swift",
+      "line": 15,
+      "symbol": "AccountService.getAccount(request:completionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/zoltan/Work/TimeAndDate/swift/libtad/TadApi/ApiServices/Account/Models/Account.swift",
+      "line": 11,
+      "symbol": "Account",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/zoltan/Work/TimeAndDate/swift/libtad/TadApi/ApiServices/Astronomy/Types/EventType.swift",
       "line": 11,
       "symbol": "EventType",

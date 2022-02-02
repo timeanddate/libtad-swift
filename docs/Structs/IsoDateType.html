@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DSTListLocation Structure Reference</title>
+    <title>IsoDateType Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/DSTListLocation" class="dashAnchor"></a>
-    <a title="DSTListLocation Structure Reference"></a>
+    <a name="//apple_ref/swift/Struct/IsoDateType" class="dashAnchor"></a>
+    <a title="IsoDateType Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">libtad 1.0.0 Docs</a> (89% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">libtad Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DSTListLocation Structure Reference
+        IsoDateType Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -270,19 +270,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DSTListLocation</h1>
+            <h1>IsoDateType</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DSTListLocation</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">IsoDateType</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
-            <p>DSTListLocation</p>
-<div class="aside aside-see-also">
-    <p class="aside-title">See also</p>
-    <a href="https://dev.timeanddate.com/docs/type-locationref">LocationRefType</a>
-
-</div>
+            <p>IsoDateType</p>
 
           </section>
           <section class="section task-group-section">
@@ -291,9 +286,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6libtad15DSTListLocationV2idSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV2idSSSgvp">id</a>
+                    <a name="/s:6libtad11IsoDateTypeV3iso10Foundation0C0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/iso" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6libtad11IsoDateTypeV3iso10Foundation0C0VSgvp">iso</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -301,68 +296,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The id of the location.</p>
+                        <p>UTC time stamp in ISO8601 format, and (if requested) split into components.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6libtad15DSTListLocationV4nameSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV4nameSSSgvp">name</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The name of the location</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6libtad15DSTListLocationV5stateSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV5stateSSSgvp">state</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The state of the location within the country (only if applicable).</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">iso</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>

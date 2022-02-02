@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>DSTListLocation Structure Reference</title>
+    <title>PackageType Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/DSTListLocation" class="dashAnchor"></a>
-    <a title="DSTListLocation Structure Reference"></a>
+    <a name="//apple_ref/swift/Struct/PackageType" class="dashAnchor"></a>
+    <a title="PackageType Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">libtad 1.0.0 Docs</a> (89% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">libtad Reference</a>
         <img id="carat" src="../img/carat.png" />
-        DSTListLocation Structure Reference
+        PackageType Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -270,17 +270,17 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>DSTListLocation</h1>
+            <h1>PackageType</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DSTListLocation</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PackageType</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
-            <p>DSTListLocation</p>
+            <p>PackageType</p>
 <div class="aside aside-see-also">
     <p class="aside-title">See also</p>
-    <a href="https://dev.timeanddate.com/docs/type-locationref">LocationRefType</a>
+    <a href="https://dev.timeanddate.com/docs/type-package">PackageType</a>
 
 </div>
 
@@ -291,9 +291,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6libtad15DSTListLocationV2idSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV2idSSSgvp">id</a>
+                    <a name="/s:6libtad11PackageTypeV9productidSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/productid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6libtad11PackageTypeV9productidSSSgvp">productid</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -301,14 +301,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The id of the location.</p>
+                        <p>The unique product identifier used by timeanddate.com
+Example for Holidays Full package: H002
+Example for Astronomy Full package: A001</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">productid</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -318,9 +320,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6libtad15DSTListLocationV4nameSSSgvp"></a>
+                    <a name="/s:6libtad11PackageTypeV4nameSSSgvp"></a>
                     <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV4nameSSSgvp">name</a>
+                    <a class="token" href="#/s:6libtad11PackageTypeV4nameSSSgvp">name</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -328,7 +330,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The name of the location</p>
+                        <p>The package name as shown on dev-timeanddate.com</p>
 
                       </div>
                       <div class="declaration">
@@ -345,9 +347,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6libtad15DSTListLocationV5stateSSSgvp"></a>
-                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6libtad15DSTListLocationV5stateSSSgvp">state</a>
+                    <a name="/s:6libtad11PackageTypeV12purchasedate10Foundation4DateVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/purchasedate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6libtad11PackageTypeV12purchasedate10Foundation4DateVSgvp">purchasedate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -355,14 +357,68 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The state of the location within the country (only if applicable).</p>
+                        <p>The date the given package was purchased</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">purchasedate</span><span class="p">:</span> <span class="kt">Date</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6libtad11PackageTypeV10validuntil10Foundation4DateVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/validuntil" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6libtad11PackageTypeV10validuntil10Foundation4DateVSgvp">validuntil</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The date when the given package expires unless renewed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">validuntil</span><span class="p">:</span> <span class="kt">Date</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6libtad11PackageTypeV10parametersSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/parameters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6libtad11PackageTypeV10parametersSSSgvp">parameters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the package is purchased with certain specific parameters, for instance, a limitation on which country for query for, then this property will be filled with those parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">parameters</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
